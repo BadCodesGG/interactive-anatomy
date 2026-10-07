@@ -3,7 +3,7 @@
 **The human brain and body, pulled apart.**
 Interactive 3D exploded views of the brain (15 regions) and the body (104 parts), with an age slider from infant to senior, built from the open Z-Anatomy atlas.
 
-<!-- demo-video -->
+https://github.com/user-attachments/assets/6d433ea9-7218-4e51-8983-b0ea13a68c7b
 
 **Live: [anatomy.badcodes.dev](https://anatomy.badcodes.dev)**
 
