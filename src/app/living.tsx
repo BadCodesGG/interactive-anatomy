@@ -5,12 +5,12 @@
  * own movement. Loaded only in the stage's lazy chunk.
  */
 import { useEffect, useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { useTheme, type ExplodeStore } from "@/engine/explode";
 import { groundHeight } from "@/engine/explode/ground";
 import { useStageScene } from "@/engine/explode/stage";
-import { FloorHeight } from "./floor-height";
+import { FloorHeight, showFloorLayer } from "./floor-height";
 import { breathPhase, heartPulse, MOVING, movement, PartMotion } from "./motion";
 import { Sway } from "./sway";
 
@@ -110,6 +110,8 @@ export function StudioFloor({ store }: { store: ExplodeStore }) {
     material.uniforms.uAlpha.value.set(look.alpha[0], look.alpha[1]);
   }, [material, theme]);
   useEffect(() => () => material.dispose(), [material]);
+  const camera = useThree((s) => s.camera);
+  useEffect(() => (mesh.current ? showFloorLayer(mesh.current, camera) : undefined), [camera]);
   useFrame(({ internal, invalidate }) => {
     if (setPremulFix(material, internal.priority > 0 ? 1 : 0)) invalidate();
     // Measured when the layout changes (the explode tween, the age looks, a filtered group), not every frame.
