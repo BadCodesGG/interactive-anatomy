@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "model": "/models/brain.226143c9.glb",
+  "assembly": {
+    "centre": null,
+    "radius": null,
+    "axis": null,
+    "camera": {
+      "azimuth": 1.13,
+      "polar": 1.2
+    },
+    "frame": 1.35
+  },
+  "groups": {
+    "regions": {
+      "label": "Brain regions",
+      "stage": 0
+    }
+  },
+  "parts": {
+    "frontal": {
+      "label": "Frontal lobe",
+      "group": "regions",
+      "explode": [
+        0,
+        0.584,
+        1.561
+      ],
+      "order": 0,
+      "pickable": true,
+      "copy": "frontal"
+    },
+    "parietal": {
+      "label": "Parietal lobe",
+      "group": "regions",
+      "explode": [
+        0,
+        1.405,
+        0.055
+      ],
+      "order": 0.1,
+      "pickable": true,
+      "copy": "parietal"
+    },
+    "temporal": {
+      "label": "Temporal lobe",
+      "group": "regions",
+      "explode": [
+        0,
+        -1.296,
+        1.864
+      ],
+      "order": 0.15,
+      "pickable": true,
+      "copy": "temporal"
+    },
+    "occipital": {
+      "label": "Occipital lobe",
+      "group": "regions",
+      "explode": [
+        0,
+        0.206,
+        -1.438
+      ],
+      "order": 0.2,
+      "pickable": true,
+      "copy": "occipital"
+    },
+    "insula": {
+      "label": "Insula",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.319,
+        1.32
+      ],
+      "order": 0.45,
+      "pickable": true,
+      "copy": "insula"
+    },
+    "cerebellum": {
+      "label": "Cerebellum",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.804,
+        -1.314
+      ],
+      "order": 0.25,
+      "pickable": true,
+      "copy": "cerebellum"
+    },
+    "brainstem": {
+      "label": "Brainstem",
+      "group": "regions",
+      "explode": [
+        0,
+        -1.351,
+        0.049
+      ],
+      "order": 0.3,
+      "pickable": true,
+      "copy": "brainstem"
+    },
+    "corpus_callosum": {
+      "label": "Corpus callosum and commissures",
+      "group": "regions",
+      "explode": [
+        0,
+        0.761,
+        0.081
+      ],
+      "order": 0.5,
+      "pickable": true,
+      "copy": "corpus_callosum"
+    },
+    "thalamus": {
+      "label": "Thalamus and epithalamus",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.041,
+        -0.039
+      ],
+      "order": 0.9,
+      "pickable": true,
+      "copy": "thalamus"
+    },
+    "hypothalamus": {
+      "label": "Hypothalamus",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.488,
+        0.346
+      ],
+      "order": 0.8,
+      "pickable": true,
+      "copy": "hypothalamus"
+    },
+    "hippocampus": {
+      "label": "Hippocampus and fornix",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.811,
+        0.037
+      ],
+      "order": 0.7,
+      "pickable": true,
+      "copy": "hippocampus"
+    },
+    "amygdala": {
+      "label": "Amygdala",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.629,
+        1.088
+      ],
+      "order": 0.75,
+      "pickable": true,
+      "copy": "amygdala"
+    },
+    "basal_ganglia": {
+      "label": "Basal ganglia",
+      "group": "regions",
+      "explode": [
+        0,
+        0.065,
+        0.599
+      ],
+      "order": 0.6,
+      "pickable": true,
+      "copy": "basal_ganglia"
+    },
+    "ventricles": {
+      "label": "Ventricles and choroid plexus",
+      "group": "regions",
+      "explode": [
+        0,
+        -0.205,
+        -0.867
+      ],
+      "order": 0.65,
+      "pickable": true,
+      "copy": "ventricles"
+    },
+    "other": {
+      "label": "Limbic cortex and other structures",
+      "group": "regions",
+      "explode": [
+        0,
+        0.665,
+        -1.143
+      ],
+      "order": 0.55,
+      "pickable": true,
+      "copy": "other"
+    }
+  }
+}

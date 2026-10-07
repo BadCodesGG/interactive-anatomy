@@ -1,0 +1,2816 @@
+{
+  "groups": {
+    "skull": {
+      "label": "Skull",
+      "layer": "skeleton",
+      "nodes": [
+        "IncusL",
+        "IncusR",
+        "MalleusL",
+        "MalleusR",
+        "StapesL",
+        "StapesR",
+        "AnteriorcellsofethmoidboneL",
+        "AnteriorcellsofethmoidboneR",
+        "MiddlecellsofethmoidboneL",
+        "MiddlecellsofethmoidboneR",
+        "PosteriorcellsofethmoidboneL",
+        "PosteriorcellsofethmoidboneR",
+        "Sinusoffrontalbone",
+        "InferiornasalconchaboneL",
+        "InferiornasalconchaboneR",
+        "LacrimalboneL",
+        "LacrimalboneR",
+        "MaxillaL",
+        "MaxillaR",
+        "NasalboneL",
+        "NasalboneR",
+        "Occipitalbone",
+        "PalatineboneL",
+        "PalatineboneR",
+        "ParietalboneL",
+        "ParietalboneR",
+        "Sinusofsphenoidbone",
+        "TemporalboneL",
+        "TemporalboneR",
+        "Vomer",
+        "ZygomaticboneL",
+        "ZygomaticboneR",
+        "Mandible",
+        "LateralprocessofnasalseptalcartilageL",
+        "LateralprocessofnasalseptalcartilageR",
+        "MajoralarcartilageL",
+        "MajoralarcartilageR",
+        "Nasalseptalcartilage",
+        "LowercanineL",
+        "LowercanineR",
+        "LowerlateralincisorL",
+        "LowerlateralincisorR",
+        "LowermedialincisorR",
+        "LowermedialincisorL",
+        "UppercanineL",
+        "UppercanineR",
+        "UpperlateralincisorL",
+        "UpperlateralincisorR",
+        "UppermedialincisorL",
+        "UppermedialincisorR",
+        "LowerfirstmolartoothL",
+        "LowerfirstmolartoothR",
+        "LowerfirstpremolarL",
+        "LowerfirstpremolarR",
+        "LowersecondmolartoothL",
+        "LowersecondmolartoothR",
+        "LowersecondpremolarL",
+        "LowersecondpremolarR",
+        "UpperfirstmolartoothL",
+        "UpperfirstmolartoothR",
+        "UpperfirstpremolarL",
+        "UpperfirstpremolarR",
+        "UppersecondmolartoothL",
+        "UppersecondmolartoothR",
+        "UppersecondpremolarL",
+        "UppersecondpremolarR",
+        "PterygospinousligamentL",
+        "PterygospinousligamentR",
+        "SphenomandibularligamentL",
+        "SphenomandibularligamentR",
+        "StylohyoidligamentL",
+        "StylohyoidligamentR",
+        "StylomandibularligamentL",
+        "StylomandibularligamentR",
+        "ArticularcapsuleoftemporomandibularjointL",
+        "ArticularcapsuleoftemporomandibularjointR",
+        "ArticulardiscoftemporomandibularjointL",
+        "ArticulardiscoftemporomandibularjointR",
+        "LateraltemporomandibularligamentL",
+        "LateraltemporomandibularligamentR",
+        "Ethmoidbone",
+        "Frontalbone",
+        "Sphenoidbone"
+      ],
+      "nodesRaw": [
+        "Incus L",
+        "Incus R",
+        "Malleus L",
+        "Malleus R",
+        "Stapes L",
+        "Stapes R",
+        "Anterior cells of ethmoid bone L",
+        "Anterior cells of ethmoid bone R",
+        "Middle cells of ethmoid bone L",
+        "Middle cells of ethmoid bone R",
+        "Posterior cells of ethmoid bone L",
+        "Posterior cells of ethmoid bone R",
+        "Sinus of frontal bone",
+        "Inferior nasal concha bone L",
+        "Inferior nasal concha bone R",
+        "Lacrimal bone L",
+        "Lacrimal bone R",
+        "Maxilla L",
+        "Maxilla R",
+        "Nasal bone L",
+        "Nasal bone R",
+        "Occipital bone",
+        "Palatine bone L",
+        "Palatine bone R",
+        "Parietal bone L",
+        "Parietal bone R",
+        "Sinus of sphenoid bone",
+        "Temporal bone L",
+        "Temporal bone R",
+        "Vomer",
+        "Zygomatic bone L",
+        "Zygomatic bone R",
+        "Mandible",
+        "Lateral process of nasal septal cartilage L",
+        "Lateral process of nasal septal cartilage R",
+        "Major alar cartilage L",
+        "Major alar cartilage R",
+        "Nasal septal cartilage",
+        "Lower canine L",
+        "Lower canine R",
+        "Lower lateral incisor L",
+        "Lower lateral incisor R",
+        "Lower medial incisor R",
+        "Lower medial incisor L",
+        "Upper canine L",
+        "Upper canine R",
+        "Upper lateral incisor L",
+        "Upper lateral incisor R",
+        "Upper medial incisor L",
+        "Upper medial incisor R",
+        "Lower first molar tooth L",
+        "Lower first molar tooth R",
+        "Lower first premolar L",
+        "Lower first premolar R",
+        "Lower second molar tooth L",
+        "Lower second molar tooth R",
+        "Lower second premolar L",
+        "Lower second premolar R",
+        "Upper first molar tooth L",
+        "Upper first molar tooth R",
+        "Upper first premolar L",
+        "Upper first premolar R",
+        "Upper second molar tooth L",
+        "Upper second molar tooth R",
+        "Upper second premolar L",
+        "Upper second premolar R",
+        "Pterygospinous ligament L",
+        "Pterygospinous ligament R",
+        "Sphenomandibular ligament L",
+        "Sphenomandibular ligament R",
+        "Stylohyoid ligament L",
+        "Stylohyoid ligament R",
+        "Stylomandibular ligament L",
+        "Stylomandibular ligament R",
+        "Articular capsule of temporomandibular joint L",
+        "Articular capsule of temporomandibular joint R",
+        "Articular disc of temporomandibular joint L",
+        "Articular disc of temporomandibular joint R",
+        "Lateral temporomandibular ligament L",
+        "Lateral temporomandibular ligament R",
+        "Ethmoid bone",
+        "Frontal bone",
+        "Sphenoid bone"
+      ],
+      "subgroups": {
+        "ossicles": [
+          "IncusL",
+          "IncusR",
+          "MalleusL",
+          "MalleusR",
+          "StapesL",
+          "StapesR"
+        ],
+        "bones": [
+          "AnteriorcellsofethmoidboneL",
+          "AnteriorcellsofethmoidboneR",
+          "MiddlecellsofethmoidboneL",
+          "MiddlecellsofethmoidboneR",
+          "PosteriorcellsofethmoidboneL",
+          "PosteriorcellsofethmoidboneR",
+          "Sinusoffrontalbone",
+          "InferiornasalconchaboneL",
+          "InferiornasalconchaboneR",
+          "LacrimalboneL",
+          "LacrimalboneR",
+          "MaxillaL",
+          "MaxillaR",
+          "NasalboneL",
+          "NasalboneR",
+          "Occipitalbone",
+          "PalatineboneL",
+          "PalatineboneR",
+          "ParietalboneL",
+          "ParietalboneR",
+          "Sinusofsphenoidbone",
+          "TemporalboneL",
+          "TemporalboneR",
+          "Vomer",
+          "ZygomaticboneL",
+          "ZygomaticboneR",
+          "Mandible",
+          "Ethmoidbone",
+          "Frontalbone",
+          "Sphenoidbone"
+        ],
+        "nasal_cartilage": [
+          "LateralprocessofnasalseptalcartilageL",
+          "LateralprocessofnasalseptalcartilageR",
+          "MajoralarcartilageL",
+          "MajoralarcartilageR",
+          "Nasalseptalcartilage"
+        ],
+        "teeth": [
+          "LowercanineL",
+          "LowercanineR",
+          "LowerlateralincisorL",
+          "LowerlateralincisorR",
+          "LowermedialincisorR",
+          "LowermedialincisorL",
+          "UppercanineL",
+          "UppercanineR",
+          "UpperlateralincisorL",
+          "UpperlateralincisorR",
+          "UppermedialincisorL",
+          "UppermedialincisorR",
+          "LowerfirstmolartoothL",
+          "LowerfirstmolartoothR",
+          "LowerfirstpremolarL",
+          "LowerfirstpremolarR",
+          "LowersecondmolartoothL",
+          "LowersecondmolartoothR",
+          "LowersecondpremolarL",
+          "LowersecondpremolarR",
+          "UpperfirstmolartoothL",
+          "UpperfirstmolartoothR",
+          "UpperfirstpremolarL",
+          "UpperfirstpremolarR",
+          "UppersecondmolartoothL",
+          "UppersecondmolartoothR",
+          "UppersecondpremolarL",
+          "UppersecondpremolarR"
+        ],
+        "ligaments": [
+          "PterygospinousligamentL",
+          "PterygospinousligamentR",
+          "SphenomandibularligamentL",
+          "SphenomandibularligamentR",
+          "StylohyoidligamentL",
+          "StylohyoidligamentR",
+          "StylomandibularligamentL",
+          "StylomandibularligamentR",
+          "ArticularcapsuleoftemporomandibularjointL",
+          "ArticularcapsuleoftemporomandibularjointR",
+          "ArticulardiscoftemporomandibularjointL",
+          "ArticulardiscoftemporomandibularjointR",
+          "LateraltemporomandibularligamentL",
+          "LateraltemporomandibularligamentR"
+        ]
+      }
+    },
+    "spine": {
+      "label": "Spine (sacrum, coccyx and ligaments)",
+      "layer": "skeleton",
+      "nodes": [
+        "Coccyx",
+        "Sacrum",
+        "Sacrococcygealsymphysis",
+        "Anteriorlongitudinalligament",
+        "IntercornualligamentL",
+        "IntercornualligamentR",
+        "Interspinousligaments",
+        "IntertransverseligamentsL",
+        "IntertransverseligamentsR",
+        "Ligamentaflava",
+        "Nuchalligament",
+        "Posteriorlongitudinalligament",
+        "Supraspinousligament"
+      ],
+      "nodesRaw": [
+        "Coccyx",
+        "Sacrum",
+        "Sacrococcygeal symphysis",
+        "Anterior longitudinal ligament",
+        "Intercornual ligament L",
+        "Intercornual ligament R",
+        "Interspinous ligaments",
+        "Intertransverse ligaments L",
+        "Intertransverse ligaments R",
+        "Ligamenta flava",
+        "Nuchal ligament",
+        "Posterior longitudinal ligament",
+        "Supraspinous ligament"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c1": {
+      "label": "Vertebra C1 (atlas)",
+      "layer": "skeleton",
+      "nodes": [
+        "AtlasC1"
+      ],
+      "nodesRaw": [
+        "Atlas (C1)"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c2": {
+      "label": "Vertebra C2 (axis)",
+      "layer": "skeleton",
+      "nodes": [
+        "AxisC2"
+      ],
+      "nodesRaw": [
+        "Axis (C2)"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c2_c3": {
+      "label": "Disc C2-C3",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC2-C3",
+        "NucleuspulposusC2-C3"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C2-C3",
+        "Nucleus pulposus C2-C3"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c3": {
+      "label": "Vertebra C3",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraC3"
+      ],
+      "nodesRaw": [
+        "Vertebra C3"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c3_c4": {
+      "label": "Disc C3-C4",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC3-C4",
+        "NucleuspulposusC3-C4"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C3-C4",
+        "Nucleus pulposus C3-C4"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c4": {
+      "label": "Vertebra C4",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraC4"
+      ],
+      "nodesRaw": [
+        "Vertebra C4"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c4_c5": {
+      "label": "Disc C4-C5",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC4-C5",
+        "NucleuspulposusC4-C5"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C4-C5",
+        "Nucleus pulposus C4-C5"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c5": {
+      "label": "Vertebra C5",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraC5"
+      ],
+      "nodesRaw": [
+        "Vertebra C5"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c5_c6": {
+      "label": "Disc C5-C6",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC5-C6",
+        "NucleuspulposusC5-C6"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C5-C6",
+        "Nucleus pulposus C5-C6"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c6": {
+      "label": "Vertebra C6",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraC6"
+      ],
+      "nodesRaw": [
+        "Vertebra C6"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c6_c7": {
+      "label": "Disc C6-C7",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC6-C7",
+        "NucleuspulposusC6-C7"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C6-C7",
+        "Nucleus pulposus C6-C7"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_c7": {
+      "label": "Vertebra C7",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraC7"
+      ],
+      "nodesRaw": [
+        "Vertebra C7"
+      ],
+      "pivot": "spine"
+    },
+    "disc_c7_t1": {
+      "label": "Disc C7-T1",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscC7-T1",
+        "NucleuspulposusC7-T1"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc C7-T1",
+        "Nucleus pulposus C7-T1"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t1": {
+      "label": "Vertebra T1",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT1"
+      ],
+      "nodesRaw": [
+        "Vertebra T1"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t1_t2": {
+      "label": "Disc T1-T2",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT1-T2",
+        "NucleuspulposusT1-T2"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T1-T2",
+        "Nucleus pulposus T1-T2"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t2": {
+      "label": "Vertebra T2",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT2"
+      ],
+      "nodesRaw": [
+        "Vertebra T2"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t2_t3": {
+      "label": "Disc T2-T3",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT2-T3",
+        "NucleuspulposusT2-T3"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T2-T3",
+        "Nucleus pulposus T2-T3"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t3": {
+      "label": "Vertebra T3",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT3"
+      ],
+      "nodesRaw": [
+        "Vertebra T3"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t3_t4": {
+      "label": "Disc T3-T4",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT3-T4",
+        "NucleuspulposusT3-T4"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T3-T4",
+        "Nucleus pulposus T3-T4"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t4": {
+      "label": "Vertebra T4",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT4"
+      ],
+      "nodesRaw": [
+        "Vertebra T4"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t4_t5": {
+      "label": "Disc T4-T5",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT4-T5",
+        "NucleuspulposusT4-T5"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T4-T5",
+        "Nucleus pulposus T4-T5"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t5": {
+      "label": "Vertebra T5",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT5"
+      ],
+      "nodesRaw": [
+        "Vertebra T5"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t5_t6": {
+      "label": "Disc T5-T6",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT5-T6",
+        "NucleuspulposusT5-T6"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T5-T6",
+        "Nucleus pulposus T5-T6"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t6": {
+      "label": "Vertebra T6",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT6"
+      ],
+      "nodesRaw": [
+        "Vertebra T6"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t6_t7": {
+      "label": "Disc T6-T7",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT6-T7",
+        "NucleuspulposusT6-T7"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T6-T7",
+        "Nucleus pulposus T6-T7"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t7": {
+      "label": "Vertebra T7",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT7"
+      ],
+      "nodesRaw": [
+        "Vertebra T7"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t7_t8": {
+      "label": "Disc T7-T8",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT7-T8",
+        "NucleuspulposusT7-T8"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T7-T8",
+        "Nucleus pulposus T7-T8"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t8": {
+      "label": "Vertebra T8",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT8"
+      ],
+      "nodesRaw": [
+        "Vertebra T8"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t8_t9": {
+      "label": "Disc T8-T9",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT8-T9",
+        "NucleuspulposusT8-T9"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T8-T9",
+        "Nucleus pulposus T8-T9"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t9": {
+      "label": "Vertebra T9",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT9"
+      ],
+      "nodesRaw": [
+        "Vertebra T9"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t9_t10": {
+      "label": "Disc T9-T10",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT9-T10",
+        "NucleuspulposusT9-T10"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T9-T10",
+        "Nucleus pulposus T9-T10"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t10": {
+      "label": "Vertebra T10",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT10"
+      ],
+      "nodesRaw": [
+        "Vertebra T10"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t10_t11": {
+      "label": "Disc T10-T11",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT10-T11",
+        "NucleuspulposusT10-T11"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T10-T11",
+        "Nucleus pulposus T10-T11"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t11": {
+      "label": "Vertebra T11",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT11"
+      ],
+      "nodesRaw": [
+        "Vertebra T11"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t11_t12": {
+      "label": "Disc T11-T12",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT11-T12",
+        "NucleuspulposusT11-T12"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T11-T12",
+        "Nucleus pulposus T11-T12"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_t12": {
+      "label": "Vertebra T12",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraT12"
+      ],
+      "nodesRaw": [
+        "Vertebra T12"
+      ],
+      "pivot": "spine"
+    },
+    "disc_t12_l1": {
+      "label": "Disc T12-L1",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscT12-L1",
+        "NucleuspulposusT12-L1"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc T12-L1",
+        "Nucleus pulposus T12-L1"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_l1": {
+      "label": "Vertebra L1",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraL1"
+      ],
+      "nodesRaw": [
+        "Vertebra L1"
+      ],
+      "pivot": "spine"
+    },
+    "disc_l1_l2": {
+      "label": "Disc L1-L2",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscL1-L2",
+        "NucleuspulposusL1-L2"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc L1-L2",
+        "Nucleus pulposus L1-L2"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_l2": {
+      "label": "Vertebra L2",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraL2"
+      ],
+      "nodesRaw": [
+        "Vertebra L2"
+      ],
+      "pivot": "spine"
+    },
+    "disc_l2_l3": {
+      "label": "Disc L2-L3",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscL2-L3",
+        "NucleuspulposusL2-L3"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc L2-L3",
+        "Nucleus pulposus L2-L3"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_l3": {
+      "label": "Vertebra L3",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraL3"
+      ],
+      "nodesRaw": [
+        "Vertebra L3"
+      ],
+      "pivot": "spine"
+    },
+    "disc_l3_l4": {
+      "label": "Disc L3-L4",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscL3-L4",
+        "NucleuspulposusL3-L4"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc L3-L4",
+        "Nucleus pulposus L3-L4"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_l4": {
+      "label": "Vertebra L4",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraL4"
+      ],
+      "nodesRaw": [
+        "Vertebra L4"
+      ],
+      "pivot": "spine"
+    },
+    "disc_l4_l5": {
+      "label": "Disc L4-L5",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscL4-L5",
+        "NucleuspulposusL4-L5"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc L4-L5",
+        "Nucleus pulposus L4-L5"
+      ],
+      "pivot": "spine"
+    },
+    "vertebra_l5": {
+      "label": "Vertebra L5",
+      "layer": "skeleton",
+      "nodes": [
+        "VertebraL5"
+      ],
+      "nodesRaw": [
+        "Vertebra L5"
+      ],
+      "pivot": "spine"
+    },
+    "disc_l5_s1": {
+      "label": "Disc L5-S1",
+      "layer": "skeleton",
+      "nodes": [
+        "IntervertebraldiscL5-S1",
+        "NucleuspulposusL5-S1"
+      ],
+      "nodesRaw": [
+        "Intervertebral disc L5-S1",
+        "Nucleus pulposus L5-S1"
+      ],
+      "pivot": "spine"
+    },
+    "ribcage": {
+      "label": "Ribcage (sternum and ligaments)",
+      "layer": "skeleton",
+      "nodes": [
+        "Bodyofsternum",
+        "Manubriumofsternum",
+        "Xiphoidprocess",
+        "ExternalintercostalmembraneL",
+        "ExternalintercostalmembraneR",
+        "InternalintercostalmembraneL",
+        "InternalintercostalmembraneR",
+        "CostotransverseligamentL",
+        "CostotransverseligamentR",
+        "Intra-articularligamentofheadofrib",
+        "Intra-articularligamentofheadofribR",
+        "RadiateligamentofheadofribL",
+        "RadiateligamentofheadofribR"
+      ],
+      "nodesRaw": [
+        "Body of sternum",
+        "Manubrium of sternum",
+        "Xiphoid process",
+        "External intercostal membrane L",
+        "External intercostal membrane R",
+        "Internal intercostal membrane L",
+        "Internal intercostal membrane R",
+        "Costotransverse ligament L",
+        "Costotransverse ligament R",
+        "Intra-articular ligament of head of rib",
+        "Intra-articular ligament of head of rib R",
+        "Radiate ligament of head of rib L",
+        "Radiate ligament of head of rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_1_left": {
+      "label": "Left rib 1",
+      "layer": "skeleton",
+      "nodes": [
+        "FirstribL",
+        "CostalcartilageoffirstribL"
+      ],
+      "nodesRaw": [
+        "First rib L",
+        "Costal cartilage of first rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_1_right": {
+      "label": "Right rib 1",
+      "layer": "skeleton",
+      "nodes": [
+        "FirstribR",
+        "CostalcartilageoffirstribR"
+      ],
+      "nodesRaw": [
+        "First rib R",
+        "Costal cartilage of first rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_2_left": {
+      "label": "Left rib 2",
+      "layer": "skeleton",
+      "nodes": [
+        "SecondribL",
+        "CostalcartilageofsecondribL"
+      ],
+      "nodesRaw": [
+        "Second rib L",
+        "Costal cartilage of second rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_2_right": {
+      "label": "Right rib 2",
+      "layer": "skeleton",
+      "nodes": [
+        "SecondribR",
+        "CostalcartilageofsecondribR"
+      ],
+      "nodesRaw": [
+        "Second rib R",
+        "Costal cartilage of second rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_3_left": {
+      "label": "Left rib 3",
+      "layer": "skeleton",
+      "nodes": [
+        "ThirdribL",
+        "CostalcartilageofthirdribL"
+      ],
+      "nodesRaw": [
+        "Third rib L",
+        "Costal cartilage of third rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_3_right": {
+      "label": "Right rib 3",
+      "layer": "skeleton",
+      "nodes": [
+        "ThirdribR",
+        "CostalcartilageofthirdribR"
+      ],
+      "nodesRaw": [
+        "Third rib R",
+        "Costal cartilage of third rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_4_left": {
+      "label": "Left rib 4",
+      "layer": "skeleton",
+      "nodes": [
+        "FourthribL",
+        "CostalcartilageoffourthribL"
+      ],
+      "nodesRaw": [
+        "Fourth rib L",
+        "Costal cartilage of fourth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_4_right": {
+      "label": "Right rib 4",
+      "layer": "skeleton",
+      "nodes": [
+        "FourthribR",
+        "CostalcartilageoffourthribR"
+      ],
+      "nodesRaw": [
+        "Fourth rib R",
+        "Costal cartilage of fourth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_5_left": {
+      "label": "Left rib 5",
+      "layer": "skeleton",
+      "nodes": [
+        "FifthribL",
+        "CostalcartilageoffifthribL"
+      ],
+      "nodesRaw": [
+        "Fifth rib L",
+        "Costal cartilage of fifth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_5_right": {
+      "label": "Right rib 5",
+      "layer": "skeleton",
+      "nodes": [
+        "FifthribR",
+        "CostalcartilageoffifthribR"
+      ],
+      "nodesRaw": [
+        "Fifth rib R",
+        "Costal cartilage of fifth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_6_left": {
+      "label": "Left rib 6",
+      "layer": "skeleton",
+      "nodes": [
+        "SixthribL",
+        "CostalcartilageofsixthribL"
+      ],
+      "nodesRaw": [
+        "Sixth rib L",
+        "Costal cartilage of sixth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_6_right": {
+      "label": "Right rib 6",
+      "layer": "skeleton",
+      "nodes": [
+        "SixthribR",
+        "CostalcartilageofsixthribR"
+      ],
+      "nodesRaw": [
+        "Sixth rib R",
+        "Costal cartilage of sixth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_7_left": {
+      "label": "Left rib 7",
+      "layer": "skeleton",
+      "nodes": [
+        "SeventhribL",
+        "CostalcartilageofseventhribL"
+      ],
+      "nodesRaw": [
+        "Seventh rib L",
+        "Costal cartilage of seventh rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_7_right": {
+      "label": "Right rib 7",
+      "layer": "skeleton",
+      "nodes": [
+        "SeventhribR",
+        "CostalcartilageofseventhribR"
+      ],
+      "nodesRaw": [
+        "Seventh rib R",
+        "Costal cartilage of seventh rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_8_left": {
+      "label": "Left rib 8",
+      "layer": "skeleton",
+      "nodes": [
+        "EighthribL",
+        "CostalcartilageofeighthribL"
+      ],
+      "nodesRaw": [
+        "Eighth rib L",
+        "Costal cartilage of eighth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_8_right": {
+      "label": "Right rib 8",
+      "layer": "skeleton",
+      "nodes": [
+        "EighthribR",
+        "CostalcartilageofeighthribR"
+      ],
+      "nodesRaw": [
+        "Eighth rib R",
+        "Costal cartilage of eighth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_9_left": {
+      "label": "Left rib 9",
+      "layer": "skeleton",
+      "nodes": [
+        "NinthribL",
+        "CostalcartilageofninthribL"
+      ],
+      "nodesRaw": [
+        "Ninth rib L",
+        "Costal cartilage of ninth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_9_right": {
+      "label": "Right rib 9",
+      "layer": "skeleton",
+      "nodes": [
+        "NinthribR",
+        "CostalcartilageofninthribR"
+      ],
+      "nodesRaw": [
+        "Ninth rib R",
+        "Costal cartilage of ninth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_10_left": {
+      "label": "Left rib 10",
+      "layer": "skeleton",
+      "nodes": [
+        "TenthribL",
+        "CostalcartilageoftenthribL"
+      ],
+      "nodesRaw": [
+        "Tenth rib L",
+        "Costal cartilage of tenth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_10_right": {
+      "label": "Right rib 10",
+      "layer": "skeleton",
+      "nodes": [
+        "TenthribR",
+        "CostalcartilageoftenthribR"
+      ],
+      "nodesRaw": [
+        "Tenth rib R",
+        "Costal cartilage of tenth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_11_left": {
+      "label": "Left rib 11",
+      "layer": "skeleton",
+      "nodes": [
+        "EleventhribL"
+      ],
+      "nodesRaw": [
+        "Eleventh rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_11_right": {
+      "label": "Right rib 11",
+      "layer": "skeleton",
+      "nodes": [
+        "EleventhribR"
+      ],
+      "nodesRaw": [
+        "Eleventh rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_12_left": {
+      "label": "Left rib 12",
+      "layer": "skeleton",
+      "nodes": [
+        "TwelfthribL"
+      ],
+      "nodesRaw": [
+        "Twelfth rib L"
+      ],
+      "pivot": "ribcage"
+    },
+    "rib_12_right": {
+      "label": "Right rib 12",
+      "layer": "skeleton",
+      "nodes": [
+        "TwelfthribR"
+      ],
+      "nodesRaw": [
+        "Twelfth rib R"
+      ],
+      "pivot": "ribcage"
+    },
+    "pelvis": {
+      "label": "Pelvis",
+      "layer": "skeleton",
+      "nodes": [
+        "HipboneL",
+        "HipboneR",
+        "Inferiorpubicligament",
+        "Interpubicdisc",
+        "Superiorpubicligament",
+        "TriradiatecartilageL",
+        "TriradiatecartilageR",
+        "IliolumbarligamentL",
+        "IliolumbarligamentR",
+        "ObturatormembraneL",
+        "ObturatormembraneR",
+        "SacrospinousligamentL",
+        "SacrospinousligamentR",
+        "SacrotuberousligamentL",
+        "SacrotuberousligamentR",
+        "Anteriorsacro-iliacligamentL",
+        "Anteriorsacro-iliacligamentR",
+        "Interosseoussacro-iliacligamentL",
+        "Interosseoussacro-iliacligamentR",
+        "Posteriorsacro-iliacligamentL",
+        "Posteriorsacro-iliacligamentR",
+        "Pubicsymphysis"
+      ],
+      "nodesRaw": [
+        "Hip bone L",
+        "Hip bone R",
+        "Inferior pubic ligament",
+        "Interpubic disc",
+        "Superior pubic ligament",
+        "Triradiate cartilage L",
+        "Triradiate cartilage R",
+        "Iliolumbar ligament L",
+        "Iliolumbar ligament R",
+        "Obturator membrane L",
+        "Obturator membrane R",
+        "Sacrospinous ligament L",
+        "Sacrospinous ligament R",
+        "Sacrotuberous ligament L",
+        "Sacrotuberous ligament R",
+        "Anterior sacro-iliac ligament L",
+        "Anterior sacro-iliac ligament R",
+        "Interosseous sacro-iliac ligament L",
+        "Interosseous sacro-iliac ligament R",
+        "Posterior sacro-iliac ligament L",
+        "Posterior sacro-iliac ligament R",
+        "Pubic symphysis"
+      ]
+    },
+    "shoulder_girdle": {
+      "label": "Shoulder girdle",
+      "layer": "skeleton",
+      "nodes": [
+        "ClavicleL",
+        "ClavicleR",
+        "ScapulaL",
+        "ScapulaR",
+        "ArticularcapsuleofglenohumeraljointL",
+        "ArticularcapsuleofglenohumeraljointR",
+        "CoracohumeralligamentL",
+        "CoracohumeralligamentR",
+        "GlenoidlabrumL",
+        "GlenoidlabrumR",
+        "InferiorglenohumeralligamentL",
+        "InferiorglenohumeralligamentR",
+        "MiddleglenohumeralligamentL",
+        "MiddleglenohumeralligamentR",
+        "SuperiorglenohumeralligamentL",
+        "SuperiorglenohumeralligamentR",
+        "TransversehumeralligamentL",
+        "TransversehumeralligamentR",
+        "Coraco-acromialligamentL",
+        "Coraco-acromialligamentR",
+        "InferiortransversescapularligamentL",
+        "InferiortransversescapularligamentR",
+        "SuperiortransversescapularligamentL",
+        "SuperiortransversescapularligamentR",
+        "AcromioclavicularligamentL",
+        "AcromioclavicularligamentR",
+        "ArticularcapsuleofacromioclavicularjointL",
+        "ArticularcapsuleofacromioclavicularjointR",
+        "ArticulardiscofacromioclavicularjointL",
+        "ArticulardiscofacromioclavicularjointR",
+        "ConoidligamentL",
+        "ConoidligamentR",
+        "TrapezoidligamentL",
+        "TrapezoidligamentR",
+        "AnteriorsternoclavicularligamentL",
+        "AnteriorsternoclavicularligamentR",
+        "ArticularcapsuleofsternoclavicularjointL",
+        "ArticularcapsuleofsternoclavicularjointR",
+        "ArticulardiscofsternoclavicularjointL",
+        "ArticulardiscofsternoclavicularjointR",
+        "CostoclavicularligamentL",
+        "CostoclavicularligamentR",
+        "InterclavicularligamentL",
+        "InterclavicularligamentR",
+        "PosteriorsternoclavicularligamentL",
+        "PosteriorsternoclavicularligamentR"
+      ],
+      "nodesRaw": [
+        "Clavicle L",
+        "Clavicle R",
+        "Scapula L",
+        "Scapula R",
+        "Articular capsule of glenohumeral joint L",
+        "Articular capsule of glenohumeral joint R",
+        "Coracohumeral ligament L",
+        "Coracohumeral ligament R",
+        "Glenoid labrum L",
+        "Glenoid labrum R",
+        "Inferior glenohumeral ligament L",
+        "Inferior glenohumeral ligament R",
+        "Middle glenohumeral ligament L",
+        "Middle glenohumeral ligament R",
+        "Superior glenohumeral ligament L",
+        "Superior glenohumeral ligament R",
+        "Transverse humeral ligament L",
+        "Transverse humeral ligament R",
+        "Coraco-acromial ligament L",
+        "Coraco-acromial ligament R",
+        "Inferior transverse scapular ligament L",
+        "Inferior transverse scapular ligament R",
+        "Superior transverse scapular ligament L",
+        "Superior transverse scapular ligament R",
+        "Acromioclavicular ligament L",
+        "Acromioclavicular ligament R",
+        "Articular capsule of acromioclavicular joint L",
+        "Articular capsule of acromioclavicular joint R",
+        "Articular disc of acromioclavicular joint L",
+        "Articular disc of acromioclavicular joint R",
+        "Conoid ligament L",
+        "Conoid ligament R",
+        "Trapezoid ligament L",
+        "Trapezoid ligament R",
+        "Anterior sternoclavicular ligament L",
+        "Anterior sternoclavicular ligament R",
+        "Articular capsule of sternoclavicular joint L",
+        "Articular capsule of sternoclavicular joint R",
+        "Articular disc of sternoclavicular joint L",
+        "Articular disc of sternoclavicular joint R",
+        "Costoclavicular ligament L",
+        "Costoclavicular ligament R",
+        "Interclavicular ligament L",
+        "Interclavicular ligament R",
+        "Posterior sternoclavicular ligament L",
+        "Posterior sternoclavicular ligament R"
+      ]
+    },
+    "arm_left": {
+      "label": "Left arm",
+      "layer": "skeleton",
+      "nodes": [
+        "HumerusL",
+        "RadiusL",
+        "UlnaL",
+        "InterosseousmembraneofforearmL",
+        "ObliquecordL",
+        "Articulardiscofdistalradio-ulnarjointL",
+        "Dorsalradio-ulnarligamentL",
+        "Palmarradio-ulnarligamentL",
+        "AnnularligamentofradiusL",
+        "ArticularcapsuleofelbowjointL",
+        "QuadrateligamentL",
+        "RadialcollateralligamentL",
+        "UlnarcollateralligamentL"
+      ],
+      "nodesRaw": [
+        "Humerus L",
+        "Radius L",
+        "Ulna L",
+        "Interosseous membrane of forearm L",
+        "Oblique cord L",
+        "Articular disc of distal radio-ulnar joint L",
+        "Dorsal radio-ulnar ligament L",
+        "Palmar radio-ulnar ligament L",
+        "Annular ligament of radius L",
+        "Articular capsule of elbow joint L",
+        "Quadrate ligament L",
+        "Radial collateral ligament L",
+        "Ulnar collateral ligament L"
+      ]
+    },
+    "arm_right": {
+      "label": "Right arm",
+      "layer": "skeleton",
+      "nodes": [
+        "HumerusR",
+        "RadiusR",
+        "UlnaR",
+        "InterosseousmembraneofforearmR",
+        "ObliquecordR",
+        "Articulardiscofdistalradio-ulnarjointR",
+        "Dorsalradio-ulnarligamentR",
+        "Palmarradio-ulnarligamentR",
+        "AnnularligamentofradiusR",
+        "ArticularcapsuleofelbowjointR",
+        "QuadrateligamentR",
+        "RadialcollateralligamentR",
+        "UlnarcollateralligamentR"
+      ],
+      "nodesRaw": [
+        "Humerus R",
+        "Radius R",
+        "Ulna R",
+        "Interosseous membrane of forearm R",
+        "Oblique cord R",
+        "Articular disc of distal radio-ulnar joint R",
+        "Dorsal radio-ulnar ligament R",
+        "Palmar radio-ulnar ligament R",
+        "Annular ligament of radius R",
+        "Articular capsule of elbow joint R",
+        "Quadrate ligament R",
+        "Radial collateral ligament R",
+        "Ulnar collateral ligament R"
+      ]
+    },
+    "hand_left": {
+      "label": "Left hand",
+      "layer": "skeleton",
+      "nodes": [
+        "CapitateboneL",
+        "DistalphalanxoffifthfingerofhandL",
+        "DistalphalanxoffirstfingerofhandL",
+        "DistalphalanxoffourthfingerofhandL",
+        "DistalphalanxofsecondfingerofhandL",
+        "DistalphalanxofthirdfingerofhandL",
+        "FifthmetacarpalboneL",
+        "FirstmetacarpalboneL",
+        "FourthmetacarpalboneL",
+        "HamateboneL",
+        "LunateboneL",
+        "MiddlephalanxoffifthfingerofhandL",
+        "MiddlephalanxoffourthfingerofhandL",
+        "MiddlephalanxofsecondfingerofhandL",
+        "MiddlephalanxofthirdfingerofhandL",
+        "PisiformboneL",
+        "ProximalphalanxoffifthfingerofhandL",
+        "ProximalphalanxoffirstfingerofhandL",
+        "ProximalphalanxoffourthfingerofhandL",
+        "ProximalphalanxofsecondfingerofhandL",
+        "ProximalphalanxofthirdfingerofhandL",
+        "ScaphoidboneL",
+        "SecondmetacarpalboneL",
+        "ThirdmetacarpalboneL",
+        "TrapeziumboneL",
+        "TrapezoidboneL",
+        "TriquetrumboneL",
+        "DorsalcarpometacarpalligamentsL",
+        "PalmarcarpometacarpalligamentsL",
+        "CapitohamateinterosseousligamentL",
+        "DorsalscaphotriquetralligamentL",
+        "DorsalulnocarpalligamentL",
+        "LunotriquetralinterosseousligamentL",
+        "PalmarcapitohamateligamentL",
+        "PalmarlunotriquetralligamentL",
+        "PalmarscaphotriquetralligamentL",
+        "PalmartrapezoideocapitateligamentL",
+        "PisohamateligamentL",
+        "PisometacarpalligamentL",
+        "PisotriquetralligamentL",
+        "RadiatecarpalligamentL",
+        "ScaphocapitateligamentL",
+        "ScaphotrapeziotrapezoidalligamentL",
+        "ScapholunateinterosseousligamentL",
+        "TrapeziotrapezoidalinterosseousligamentL",
+        "TrapezoideocapitateinterosseousligamentL",
+        "TriquetrocapitateligamentL",
+        "TriquetrohamateligamentL",
+        "DorsalmetacarpalligamentsL",
+        "InterosseousmetacarpalligamentsL",
+        "PalmarmetacarpalligamentsL",
+        "ArticularcapsulesofdistalinterphalangealjointsL",
+        "ArticularcapsulesofproximalinterphalangealjointsL",
+        "CollateralinterphalangealligamentsofhandL",
+        "PalmarinterphalangealligamentsL",
+        "ArticularcapsulesofmetacarpophalangealjointsL",
+        "CollateralmetacarpophalangealligamentsL",
+        "DeeptransversemetacarpalligamentL",
+        "ArticularcapsuleofradiocarpaljointL",
+        "DorsalradiocarpalligamentL",
+        "RadialcollateralligamentofwristjointL",
+        "RadioscaphocapitateligamentL",
+        "RadiocapitateligamentL",
+        "UlnarcollateralligamentofwristjointL",
+        "UlnocapitateligamentL",
+        "UlnolunateligamentL",
+        "UlnopisiformligamentL",
+        "UlnotriquetralligamentL",
+        "DorsalintercarpalligamentsL"
+      ],
+      "nodesRaw": [
+        "Capitate bone L",
+        "Distal phalanx of fifth finger of hand L",
+        "Distal phalanx of first finger of hand L",
+        "Distal phalanx of fourth finger of hand L",
+        "Distal phalanx of second finger of hand L",
+        "Distal phalanx of third finger of hand L",
+        "Fifth metacarpal bone L",
+        "First metacarpal bone L",
+        "Fourth metacarpal bone L",
+        "Hamate bone L",
+        "Lunate bone L",
+        "Middle phalanx of fifth finger of hand L",
+        "Middle phalanx of fourth finger of hand L",
+        "Middle phalanx of second finger of hand L",
+        "Middle phalanx of third finger of hand L",
+        "Pisiform bone L",
+        "Proximal phalanx of fifth finger of hand L",
+        "Proximal phalanx of first finger of hand L",
+        "Proximal phalanx of fourth finger of hand L",
+        "Proximal phalanx of second finger of hand L",
+        "Proximal phalanx of third finger of hand L",
+        "Scaphoid bone L",
+        "Second metacarpal bone L",
+        "Third metacarpal bone L",
+        "Trapezium bone L",
+        "Trapezoid bone L",
+        "Triquetrum bone L",
+        "Dorsal carpometacarpal ligaments L",
+        "Palmar carpometacarpal ligaments L",
+        "Capitohamate interosseous ligament L",
+        "Dorsal scaphotriquetral ligament L",
+        "Dorsal ulnocarpal ligament L",
+        "Lunotriquetral interosseous ligament L",
+        "Palmar capitohamate ligament L",
+        "Palmar lunotriquetral ligament L",
+        "Palmar scaphotriquetral ligament L",
+        "Palmar trapezoideocapitate ligament L",
+        "Pisohamate ligament L",
+        "Pisometacarpal ligament L",
+        "Pisotriquetral ligament L",
+        "Radiate carpal ligament L",
+        "Scaphocapitate ligament L",
+        "Scaphotrapeziotrapezoidal ligament L",
+        "Scapholunate interosseous ligament L",
+        "Trapeziotrapezoidal interosseous ligament L",
+        "Trapezoideocapitate interosseous ligament L",
+        "Triquetrocapitate ligament L",
+        "Triquetrohamate ligament L",
+        "Dorsal metacarpal ligaments L",
+        "Interosseous metacarpal ligaments L",
+        "Palmar metacarpal ligaments L",
+        "Articular capsules of distal interphalangeal joints L",
+        "Articular capsules of proximal interphalangeal joints L",
+        "Collateral interphalangeal ligaments of hand L",
+        "Palmar interphalangeal ligaments L",
+        "Articular capsules of metacarpophalangeal joints L",
+        "Collateral metacarpophalangeal ligaments L",
+        "Deep transverse metacarpal ligament L",
+        "Articular capsule of radiocarpal joint L",
+        "Dorsal radiocarpal ligament L",
+        "Radial collateral ligament of wrist joint L",
+        "Radioscaphocapitate ligament L",
+        "Radiocapitate ligament L",
+        "Ulnar collateral ligament of wrist joint L",
+        "Ulnocapitate ligament L",
+        "Ulnolunate ligament L",
+        "Ulnopisiform ligament L",
+        "Ulnotriquetral ligament L",
+        "Dorsal intercarpal ligaments L"
+      ]
+    },
+    "hand_right": {
+      "label": "Right hand",
+      "layer": "skeleton",
+      "nodes": [
+        "CapitateboneR",
+        "DistalphalanxoffifthfingerofhandR",
+        "DistalphalanxoffirstfingerofhandR",
+        "DistalphalanxoffourthfingerofhandR",
+        "DistalphalanxofsecondfingerofhandR",
+        "DistalphalanxofthirdfingerofhandR",
+        "FifthmetacarpalboneR",
+        "FirstmetacarpalboneR",
+        "FourthmetacarpalboneR",
+        "HamateboneR",
+        "LunateboneR",
+        "MiddlephalanxoffifthfingerofhandR",
+        "MiddlephalanxoffourthfingerofhandR",
+        "MiddlephalanxofsecondfingerofhandR",
+        "MiddlephalanxofthirdfingerofhandR",
+        "PisiformboneR",
+        "ScaphoidboneR",
+        "ProximalphalanxoffifthfingerofhandR",
+        "ProximalphalanxoffirstfingerofhandR",
+        "ProximalphalanxoffourthfingerofhandR",
+        "ProximalphalanxofsecondfingerofhandR",
+        "ProximalphalanxofthirdfingerofhandR",
+        "SecondmetacarpalboneR",
+        "ThirdmetacarpalboneR",
+        "TrapeziumboneR",
+        "TrapezoidboneR",
+        "TriquetrumboneR",
+        "DorsalcarpometacarpalligamentsR",
+        "PalmarcarpometacarpalligamentsR",
+        "CapitohamateinterosseousligamentR",
+        "DorsalscaphotriquetralligamentR",
+        "DorsalulnocarpalligamentR",
+        "LunotriquetralinterosseousligamentR",
+        "PalmarcapitohamateligamentR",
+        "PalmarlunotriquetralligamentR",
+        "PalmarscaphotriquetralligamentR",
+        "PalmartrapezoideocapitateligamentR",
+        "PisohamateligamentR",
+        "PisometacarpalligamentR",
+        "PisotriquetralligamentR",
+        "RadialcollateralligamentofwristjointR",
+        "RadiatecarpalligamentR",
+        "ScaphocapitateligamentR",
+        "ScaphotrapeziotrapezoidalligamentR",
+        "ScapholunateinterosseousligamentR",
+        "TrapeziotrapezoidalinterosseousligamentR",
+        "TrapezoideocapitateinterosseousligamentR",
+        "TriquetrocapitateligamentR",
+        "TriquetrohamateligamentR",
+        "UlnarcollateralligamentofwristjointR",
+        "DorsalmetacarpalligamentsR",
+        "InterosseousmetacarpalligamentsR",
+        "PalmarmetacarpalligamentsR",
+        "ArticularcapsulesofdistalinterphalangealjointsR",
+        "ArticularcapsulesofproximalinterphalangealjointsR",
+        "CollateralinterphalangealligamentsofhandR",
+        "PalmarinterphalangealligamentsR",
+        "ArticularcapsulesofmetacarpophalangealjointsR",
+        "CollateralmetacarpophalangealligamentsR",
+        "DeeptransversemetacarpalligamentR",
+        "ArticularcapsuleofradiocarpaljointR",
+        "DorsalradiocarpalligamentR",
+        "RadioscaphocapitateligamentR",
+        "RadiocapitateligamentR",
+        "UlnocapitateligamentR",
+        "UlnolunateligamentR",
+        "Ulnopisiformligament",
+        "UlnotriquetralligamentR",
+        "DorsalintercarpalligamentsR"
+      ],
+      "nodesRaw": [
+        "Capitate bone R",
+        "Distal phalanx of fifth finger of hand R",
+        "Distal phalanx of first finger of hand R",
+        "Distal phalanx of fourth finger of hand R",
+        "Distal phalanx of second finger of hand R",
+        "Distal phalanx of third finger of hand R",
+        "Fifth metacarpal bone R",
+        "First metacarpal bone R",
+        "Fourth metacarpal bone R",
+        "Hamate bone R",
+        "Lunate bone R",
+        "Middle phalanx of fifth finger of hand R",
+        "Middle phalanx of fourth finger of hand R",
+        "Middle phalanx of second finger of hand R",
+        "Middle phalanx of third finger of hand R",
+        "Pisiform bone R",
+        "Scaphoid bone R",
+        "Proximal phalanx of fifth finger of hand R",
+        "Proximal phalanx of first finger of hand R",
+        "Proximal phalanx of fourth finger of hand R",
+        "Proximal phalanx of second finger of hand R",
+        "Proximal phalanx of third finger of hand R",
+        "Second metacarpal bone R",
+        "Third metacarpal bone R",
+        "Trapezium bone R",
+        "Trapezoid bone R",
+        "Triquetrum bone R",
+        "Dorsal carpometacarpal ligaments R",
+        "Palmar carpometacarpal ligaments R",
+        "Capitohamate interosseous ligament R",
+        "Dorsal scaphotriquetral ligament R",
+        "Dorsal ulnocarpal ligament R",
+        "Lunotriquetral interosseous ligament R",
+        "Palmar capitohamate ligament R",
+        "Palmar lunotriquetral ligament R",
+        "Palmar scaphotriquetral ligament R",
+        "Palmar trapezoideocapitate ligament R",
+        "Pisohamate ligament R",
+        "Pisometacarpal ligament R",
+        "Pisotriquetral ligament R",
+        "Radial collateral ligament of wrist joint R",
+        "Radiate carpal ligament R",
+        "Scaphocapitate ligament R",
+        "Scaphotrapeziotrapezoidal ligament R",
+        "Scapholunate interosseous ligament R",
+        "Trapeziotrapezoidal interosseous ligament R",
+        "Trapezoideocapitate interosseous ligament R",
+        "Triquetrocapitate ligament R",
+        "Triquetrohamate ligament R",
+        "Ulnar collateral ligament of wrist joint R",
+        "Dorsal metacarpal ligaments R",
+        "Interosseous metacarpal ligaments R",
+        "Palmar metacarpal ligaments R",
+        "Articular capsules of distal interphalangeal joints R",
+        "Articular capsules of proximal interphalangeal joints R",
+        "Collateral interphalangeal ligaments of hand R",
+        "Palmar interphalangeal ligaments R",
+        "Articular capsules of metacarpophalangeal joints R",
+        "Collateral metacarpophalangeal ligaments R",
+        "Deep transverse metacarpal ligament R",
+        "Articular capsule of radiocarpal joint R",
+        "Dorsal radiocarpal ligament R",
+        "Radioscaphocapitate ligament R",
+        "Radiocapitate ligament R",
+        "Ulnocapitate ligament R",
+        "Ulnolunate ligament R",
+        "Ulnopisiform ligament",
+        "Ulnotriquetral ligament R",
+        "Dorsal intercarpal ligaments R"
+      ]
+    },
+    "leg_left": {
+      "label": "Left leg",
+      "layer": "skeleton",
+      "nodes": [
+        "FemurL",
+        "FibulaL",
+        "PatellaL",
+        "TibiaL",
+        "InterosseousmembraneoflegL",
+        "AnteriortibiofibularligamentL",
+        "PosteriortibiofibularligamentL",
+        "TransversetibiofibularligamentL",
+        "AcetabularlabrumL",
+        "ArticularcapsuleofhipjointL",
+        "DescendingpartofiliofemoralligamentL",
+        "FrenulacapsulaeL",
+        "IschiofemoralligamentL",
+        "LigamentofheadoffemurL",
+        "PubofemoralligamentL",
+        "TransverseacetabularligamentL",
+        "TransversepartofiliofemoralligamentL",
+        "ZonaorbicularisL",
+        "AnteriorcruciateligamentL",
+        "AnteriormeniscotibialligamentLateralmeniscusL",
+        "AnteriormeniscotibialligamentMedialmeniscusL",
+        "ArcuatepoplitealligamentL",
+        "ArticularcapsuleofkneejointL",
+        "DeeppartoftibialcollateralligamentL",
+        "FibularcollateralligamentL",
+        "InfrapatellarfatpadL",
+        "LateralmeniscusL",
+        "MedialmeniscusL",
+        "MeniscopatellarligamentL",
+        "ObliquepoplitealligamentL",
+        "PopliteofibularligamentL",
+        "PosteriorcruciateligamentL",
+        "PosteriormeniscotibialligamentLateralmeniscusL",
+        "PosteriormeniscotibialligamentMedialmeniscusL",
+        "SuperficialpartoftibialcollateralligamentL",
+        "TransverseligamentofkneeL",
+        "AnteriorligamentoffibularheadL",
+        "ArticularcapsuleofsuperiortibiofibularjointL",
+        "PosteriorligamentoffibularheadL"
+      ],
+      "nodesRaw": [
+        "Femur L",
+        "Fibula L",
+        "Patella L",
+        "Tibia L",
+        "Interosseous membrane of leg L",
+        "Anterior tibiofibular ligament L",
+        "Posterior tibiofibular ligament L",
+        "Transverse tibiofibular ligament L",
+        "Acetabular labrum L",
+        "Articular capsule of hip joint L",
+        "Descending part of iliofemoral ligament L",
+        "Frenula capsulae L",
+        "Ischiofemoral ligament L",
+        "Ligament of head of femur L",
+        "Pubofemoral ligament L",
+        "Transverse acetabular ligament L",
+        "Transverse part of iliofemoral ligament L",
+        "Zona orbicularis L",
+        "Anterior cruciate ligament L",
+        "Anterior meniscotibial ligament (Lateral meniscus) L",
+        "Anterior meniscotibial ligament (Medial meniscus) L",
+        "Arcuate popliteal ligament L",
+        "Articular capsule of knee joint L",
+        "Deep part of tibial collateral ligament L",
+        "Fibular collateral ligament L",
+        "Infrapatellar fat pad L",
+        "Lateral meniscus L",
+        "Medial meniscus L",
+        "Meniscopatellar ligament L",
+        "Oblique popliteal ligament L",
+        "Popliteofibular ligament L",
+        "Posterior cruciate ligament L",
+        "Posterior meniscotibial ligament (Lateral meniscus) L",
+        "Posterior meniscotibial ligament (Medial meniscus) L",
+        "Superficial part of tibial collateral ligament L",
+        "Transverse ligament of knee L",
+        "Anterior ligament of fibular head L",
+        "Articular capsule of superior tibiofibular joint L",
+        "Posterior ligament of fibular head L"
+      ]
+    },
+    "leg_right": {
+      "label": "Right leg",
+      "layer": "skeleton",
+      "nodes": [
+        "FemurR",
+        "FibulaR",
+        "PatellaR",
+        "TibiaR",
+        "InterosseousmembraneoflegR",
+        "AnteriortibiofibularligamentR",
+        "PosteriortibiofibularligamentR",
+        "TransversetibiofibularligamentR",
+        "AcetabularlabrumR",
+        "ArticularcapsuleofhipjointR",
+        "DescendingpartofiliofemoralligamentR",
+        "FrenulacapsulaeR",
+        "IschiofemoralligamentR",
+        "LigamentofheadoffemurR",
+        "PubofemoralligamentR",
+        "TransverseacetabularligamentR",
+        "TransversepartofiliofemoralligamentR",
+        "ZonaorbicularisR",
+        "AnteriorcruciateligamentR",
+        "AnteriormeniscotibialligamentLateralmeniscusR",
+        "AnteriormeniscotibialligamentMedialmeniscusR",
+        "ArcuatepoplitealligamentR",
+        "ArticularcapsuleofkneejointR",
+        "DeeppartoftibialcollateralligamentR",
+        "FibularcollateralligamentR",
+        "InfrapatellarfatpadR",
+        "LateralmeniscusR",
+        "MedialmeniscusR",
+        "MeniscopatellarligamentR",
+        "ObliquepoplitealligamentR",
+        "PopliteofibularligamentR",
+        "PosteriorcruciateligamentR",
+        "PosteriormeniscotibialligamentLateralmeniscusR",
+        "PosteriormeniscotibialligamentMedialmeniscusR",
+        "SuperficialpartoftibialcollateralligamentR",
+        "TransverseligamentofkneeR",
+        "AnteriorligamentoffibularheadR",
+        "ArticularcapsuleofsuperiortibiofibularjointR",
+        "PosteriorligamentoffibularheadR"
+      ],
+      "nodesRaw": [
+        "Femur R",
+        "Fibula R",
+        "Patella R",
+        "Tibia R",
+        "Interosseous membrane of leg R",
+        "Anterior tibiofibular ligament R",
+        "Posterior tibiofibular ligament R",
+        "Transverse tibiofibular ligament R",
+        "Acetabular labrum R",
+        "Articular capsule of hip joint R",
+        "Descending part of iliofemoral ligament R",
+        "Frenula capsulae R",
+        "Ischiofemoral ligament R",
+        "Ligament of head of femur R",
+        "Pubofemoral ligament R",
+        "Transverse acetabular ligament R",
+        "Transverse part of iliofemoral ligament R",
+        "Zona orbicularis R",
+        "Anterior cruciate ligament R",
+        "Anterior meniscotibial ligament (Lateral meniscus) R",
+        "Anterior meniscotibial ligament (Medial meniscus) R",
+        "Arcuate popliteal ligament R",
+        "Articular capsule of knee joint R",
+        "Deep part of tibial collateral ligament R",
+        "Fibular collateral ligament R",
+        "Infrapatellar fat pad R",
+        "Lateral meniscus R",
+        "Medial meniscus R",
+        "Meniscopatellar ligament R",
+        "Oblique popliteal ligament R",
+        "Popliteofibular ligament R",
+        "Posterior cruciate ligament R",
+        "Posterior meniscotibial ligament (Lateral meniscus) R",
+        "Posterior meniscotibial ligament (Medial meniscus) R",
+        "Superficial part of tibial collateral ligament R",
+        "Transverse ligament of knee R",
+        "Anterior ligament of fibular head R",
+        "Articular capsule of superior tibiofibular joint R",
+        "Posterior ligament of fibular head R"
+      ]
+    },
+    "foot_left": {
+      "label": "Left foot",
+      "layer": "skeleton",
+      "nodes": [
+        "FifthmetatarsalboneL",
+        "FirstmetatarsalboneL",
+        "FourthmetatarsalboneL",
+        "SecondmetatarsalboneL",
+        "ThirdmetatarsalboneL",
+        "DistalphalanxoffifthfingeroffootL",
+        "DistalphalanxoffirstfingeroffootL",
+        "DistalphalanxoffourthfingeroffootL",
+        "DistalphalanxofsecondfingeroffootL",
+        "DistalphalanxofthirdfingeroffootL",
+        "MiddlephalanxoffifthfingeroffootL",
+        "MiddlephalanxoffourthfingeroffootL",
+        "MiddlephalanxofsecondfingeroffootL",
+        "MiddlephalanxofthirdfingeroffootL",
+        "ProximalphalanxoffifthfingeroffootL",
+        "ProximalphalanxoffirstfingeroffootL",
+        "ProximalphalanxoffourthfingeroffootL",
+        "ProximalphalanxofsecondfingeroffootL",
+        "ProximalphalanxofthirdfingeroffootL",
+        "SesamoidbonesoffootL",
+        "CalcaneusL",
+        "CuboidboneL",
+        "IntermediatecuneiformboneL",
+        "LateralcuneiformboneL",
+        "MedialcuneiformboneL",
+        "NavicularboneL",
+        "TalusL",
+        "AnteriortalofibularligamentL",
+        "CalcaneofibularligamentL",
+        "PosteriortalofibularligamentL",
+        "PosteriortibiotalarligamentL",
+        "TibiocalcanealligamentL",
+        "TibionavicularligamentL",
+        "DorsalmetatarsalligamentsL",
+        "IntersesamoidligamentL",
+        "MetatarsalinterosseousligamentsL",
+        "PlantarmetatarsalligamentsL",
+        "ArticularcapsuleofinterphalangealjointofgreattoeL",
+        "ArticularcapsulesofdistalinterphalangealjointsoffootL",
+        "ArticularcapsulesofproximalinterphalangealjointsoffootL",
+        "CollateralinterphalangealligamentsoffootL",
+        "PlantarinterphalangealligamentsL",
+        "AnteriortalocalcanealligamentL",
+        "CalcaneocuboidligamentL",
+        "CalcaneonavicularligamentL",
+        "CuneocuboidinterosseousligamentL",
+        "DorsalcalcaneocuboidligamentL",
+        "DorsalcuboideonavicularligamentL",
+        "DorsalcuneocuboidligamentL",
+        "DorsalcuneonavicularligamentsL",
+        "DorsalintercuneiformligamentsL",
+        "IntercuneiforminterosseousligamentsL",
+        "LateraltalocalcanealligamentL",
+        "LongplantarligamentL",
+        "MedialtalocalcanealligamentL",
+        "PlantarcalcaneocuboidligamentL",
+        "PlantarcuneocuboidligamentL",
+        "PlantarcuneonavicularligamentsL",
+        "PlantarintercuneiformligamentsL",
+        "PosteriortalocalcanealligamentL",
+        "PlantarcalcaneonavicularligamentL",
+        "PlantarcuboideonavicularligamentL",
+        "TalocalcanealinterosseousligamentL",
+        "TalonavicularligamentL",
+        "ArticularcapsulesofmetatarsophalangealjointsL",
+        "CollateralmetatarsophalangealligamentsL",
+        "DeeptransversemetatarsalligamentL",
+        "PlantarmetatarsophalangealligamentsL",
+        "CuneometatarsalinterosseousligamentsL",
+        "DorsaltarsometatarsalligamentsL",
+        "PlantartarsometatarsalligamentsL"
+      ],
+      "nodesRaw": [
+        "Fifth metatarsal bone L",
+        "First metatarsal bone L",
+        "Fourth metatarsal bone L",
+        "Second metatarsal bone L",
+        "Third metatarsal bone L",
+        "Distal phalanx of fifth finger of foot L",
+        "Distal phalanx of first finger of foot L",
+        "Distal phalanx of fourth finger of foot L",
+        "Distal phalanx of second finger of foot L",
+        "Distal phalanx of third finger of foot L",
+        "Middle phalanx of fifth finger of foot L",
+        "Middle phalanx of fourth finger of foot L",
+        "Middle phalanx of second finger of foot L",
+        "Middle phalanx of third finger of foot L",
+        "Proximal phalanx of fifth finger of foot L",
+        "Proximal phalanx of first finger of foot L",
+        "Proximal phalanx of fourth finger of foot L",
+        "Proximal phalanx of second finger of foot L",
+        "Proximal phalanx of third finger of foot L",
+        "Sesamoid bones of foot L",
+        "Calcaneus L",
+        "Cuboid bone L",
+        "Intermediate cuneiform bone L",
+        "Lateral cuneiform bone L",
+        "Medial cuneiform bone L",
+        "Navicular bone L",
+        "Talus L",
+        "Anterior talofibular ligament L",
+        "Calcaneofibular ligament L",
+        "Posterior talofibular ligament L",
+        "Posterior tibiotalar ligament L",
+        "Tibiocalcaneal ligament L",
+        "Tibionavicular ligament L",
+        "Dorsal metatarsal ligaments L",
+        "Intersesamoid ligament L",
+        "Metatarsal interosseous ligaments L",
+        "Plantar metatarsal ligaments L",
+        "Articular capsule of interphalangeal joint of great toe L",
+        "Articular capsules of distal interphalangeal joints of foot L",
+        "Articular capsules of proximal interphalangeal joints of foot L",
+        "Collateral interphalangeal ligaments of foot L",
+        "Plantar interphalangeal ligaments L",
+        "Anterior talocalcaneal ligament L",
+        "Calcaneocuboid ligament L",
+        "Calcaneonavicular ligament L",
+        "Cuneocuboid interosseous ligament L",
+        "Dorsal calcaneocuboid ligament L",
+        "Dorsal cuboideonavicular ligament L",
+        "Dorsal cuneocuboid ligament L",
+        "Dorsal cuneonavicular ligaments L",
+        "Dorsal intercuneiform ligaments L",
+        "Intercuneiform interosseous ligaments L",
+        "Lateral talocalcaneal ligament L",
+        "Long plantar ligament L",
+        "Medial talocalcaneal ligament L",
+        "Plantar calcaneocuboid ligament L",
+        "Plantar cuneocuboid ligament L",
+        "Plantar cuneonavicular ligaments L",
+        "Plantar intercuneiform ligaments L",
+        "Posterior talocalcaneal ligament L",
+        "Plantar calcaneonavicular ligament L",
+        "Plantar cuboideonavicular ligament L",
+        "Talocalcaneal interosseous ligament L",
+        "Talonavicular ligament L",
+        "Articular capsules of metatarsophalangeal joints L",
+        "Collateral metatarsophalangeal ligaments L",
+        "Deep transverse metatarsal ligament L",
+        "Plantar metatarsophalangeal ligaments L",
+        "Cuneometatarsal interosseous ligaments L",
+        "Dorsal tarsometatarsal ligaments L",
+        "Plantar tarsometatarsal ligaments L"
+      ]
+    },
+    "foot_right": {
+      "label": "Right foot",
+      "layer": "skeleton",
+      "nodes": [
+        "FifthmetatarsalboneR",
+        "FirstmetatarsalboneR",
+        "FourthmetatarsalboneR",
+        "SecondmetatarsalboneR",
+        "ThirdmetatarsalboneR",
+        "SesamoidbonesoffootR",
+        "DistalphalanxoffifthfingeroffootR",
+        "DistalphalanxoffirstfingeroffootR",
+        "DistalphalanxoffourthfingeroffootR",
+        "DistalphalanxofsecondfingeroffootR",
+        "DistalphalanxofthirdfingeroffootR",
+        "MiddlephalanxoffifthfingeroffootR",
+        "MiddlephalanxoffourthfingeroffootR",
+        "MiddlephalanxofsecondfingeroffootR",
+        "MiddlephalanxofthirdfingeroffootR",
+        "ProximalphalanxoffifthfingeroffootR",
+        "ProximalphalanxoffirstfingeroffootR",
+        "ProximalphalanxoffourthfingeroffootR",
+        "ProximalphalanxofsecondfingeroffootR",
+        "ProximalphalanxofthirdfingeroffootR",
+        "CalcaneusR",
+        "CuboidboneR",
+        "IntermediatecuneiformboneR",
+        "LateralcuneiformboneR",
+        "MedialcuneiformboneR",
+        "NavicularboneR",
+        "TalusR",
+        "AnteriortalofibularligamentR",
+        "CalcaneofibularligamentR",
+        "PosteriortalofibularligamentR",
+        "PosteriortibiotalarligamentR",
+        "TibiocalcanealligamentR",
+        "TibionavicularligamentR",
+        "DorsalmetatarsalligamentsR",
+        "IntersesamoidligamentR",
+        "MetatarsalinterosseousligamentsR",
+        "PlantarmetatarsalligamentsR",
+        "ArticularcapsuleofinterphalangealjointofgreattoeR",
+        "ArticularcapsulesofdistalinterphalangealjointsoffootR",
+        "ArticularcapsulesofproximalinterphalangealjointsoffootR",
+        "CollateralinterphalangealligamentsoffootR",
+        "PlantarinterphalangealligamentsR",
+        "AnteriortalocalcanealligamentR",
+        "CalcaneocuboidligamentR",
+        "CalcaneonavicularligamentR",
+        "CuneocuboidinterosseousligamentR",
+        "DorsalcalcaneocuboidligamentR",
+        "DorsalcuboideonavicularligamentR",
+        "DorsalcuneocuboidligamentR",
+        "DorsalcuneonavicularligamentsR",
+        "DorsalintercuneiformligamentsR",
+        "IntercuneiforminterosseousligamentsR",
+        "LateraltalocalcanealligamentR",
+        "LongplantarligamentR",
+        "MedialtalocalcanealligamentR",
+        "PlantarcalcaneocuboidligamentR",
+        "PlantarcuneocuboidligamentR",
+        "PlantarcuneonavicularligamentsR",
+        "PlantarintercuneiformligamentsR",
+        "PosteriortalocalcanealligamentR",
+        "PlantarcalcaneonavicularligamentR",
+        "PlantarcuboideonavicularligamentR",
+        "TalocalcanealinterosseousligamentR",
+        "TalonavicularligamentR",
+        "ArticularcapsulesofmetatarsophalangealjointsR",
+        "CollateralmetatarsophalangealligamentsR",
+        "DeeptransversemetatarsalligamentR",
+        "PlantarmetatarsophalangealligamentsR",
+        "CuneometatarsalinterosseousligamentsR",
+        "DorsaltarsometatarsalligamentsR",
+        "PlantartarsometatarsalligamentsR"
+      ],
+      "nodesRaw": [
+        "Fifth metatarsal bone R",
+        "First metatarsal bone R",
+        "Fourth metatarsal bone R",
+        "Second metatarsal bone R",
+        "Third metatarsal bone R",
+        "Sesamoid bones of foot R",
+        "Distal phalanx of fifth finger of foot R",
+        "Distal phalanx of first finger of foot R",
+        "Distal phalanx of fourth finger of foot R",
+        "Distal phalanx of second finger of foot R",
+        "Distal phalanx of third finger of foot R",
+        "Middle phalanx of fifth finger of foot R",
+        "Middle phalanx of fourth finger of foot R",
+        "Middle phalanx of second finger of foot R",
+        "Middle phalanx of third finger of foot R",
+        "Proximal phalanx of fifth finger of foot R",
+        "Proximal phalanx of first finger of foot R",
+        "Proximal phalanx of fourth finger of foot R",
+        "Proximal phalanx of second finger of foot R",
+        "Proximal phalanx of third finger of foot R",
+        "Calcaneus R",
+        "Cuboid bone R",
+        "Intermediate cuneiform bone R",
+        "Lateral cuneiform bone R",
+        "Medial cuneiform bone R",
+        "Navicular bone R",
+        "Talus R",
+        "Anterior talofibular ligament R",
+        "Calcaneofibular ligament R",
+        "Posterior talofibular ligament R",
+        "Posterior tibiotalar ligament R",
+        "Tibiocalcaneal ligament R",
+        "Tibionavicular ligament R",
+        "Dorsal metatarsal ligaments R",
+        "Intersesamoid ligament R",
+        "Metatarsal interosseous ligaments R",
+        "Plantar metatarsal ligaments R",
+        "Articular capsule of interphalangeal joint of great toe R",
+        "Articular capsules of distal interphalangeal joints of foot R",
+        "Articular capsules of proximal interphalangeal joints of foot R",
+        "Collateral interphalangeal ligaments of foot R",
+        "Plantar interphalangeal ligaments R",
+        "Anterior talocalcaneal ligament R",
+        "Calcaneocuboid ligament R",
+        "Calcaneonavicular ligament R",
+        "Cuneocuboid interosseous ligament R",
+        "Dorsal calcaneocuboid ligament R",
+        "Dorsal cuboideonavicular ligament R",
+        "Dorsal cuneocuboid ligament R",
+        "Dorsal cuneonavicular ligaments R",
+        "Dorsal intercuneiform ligaments R",
+        "Intercuneiform interosseous ligaments R",
+        "Lateral talocalcaneal ligament R",
+        "Long plantar ligament R",
+        "Medial talocalcaneal ligament R",
+        "Plantar calcaneocuboid ligament R",
+        "Plantar cuneocuboid ligament R",
+        "Plantar cuneonavicular ligaments R",
+        "Plantar intercuneiform ligaments R",
+        "Posterior talocalcaneal ligament R",
+        "Plantar calcaneonavicular ligament R",
+        "Plantar cuboideonavicular ligament R",
+        "Talocalcaneal interosseous ligament R",
+        "Talonavicular ligament R",
+        "Articular capsules of metatarsophalangeal joints R",
+        "Collateral metatarsophalangeal ligaments R",
+        "Deep transverse metatarsal ligament R",
+        "Plantar metatarsophalangeal ligaments R",
+        "Cuneometatarsal interosseous ligaments R",
+        "Dorsal tarsometatarsal ligaments R",
+        "Plantar tarsometatarsal ligaments R"
+      ]
+    },
+    "larynx": {
+      "label": "Larynx and hyoid",
+      "layer": "skeleton",
+      "nodes": [
+        "Hyoidbone",
+        "ArytenoidcartilageR",
+        "ArytenoidcartilageL",
+        "CorniculatecartilageR",
+        "CorniculatecartilageL",
+        "Cricoidcartilage",
+        "Thyroidcartilage",
+        "QuadrangularmembraneL",
+        "QuadrangularmembraneR",
+        "Mediancricothyroidligament",
+        "LateralthyrohyoidligamentL",
+        "LateralthyrohyoidligamentR",
+        "Medianthyrohyoidligament",
+        "CricopharyngealligamentL",
+        "CricopharyngealligamentR"
+      ],
+      "nodesRaw": [
+        "Hyoid bone",
+        "Arytenoid cartilage R",
+        "Arytenoid cartilage L",
+        "Corniculate cartilage R",
+        "Corniculate cartilage L",
+        "Cricoid cartilage",
+        "Thyroid cartilage",
+        "Quadrangular membrane L",
+        "Quadrangular membrane R",
+        "Median cricothyroid ligament",
+        "Lateral thyrohyoid ligament L",
+        "Lateral thyrohyoid ligament R",
+        "Median thyrohyoid ligament",
+        "Cricopharyngeal ligament L",
+        "Cricopharyngeal ligament R"
+      ]
+    },
+    "heart": {
+      "label": "Heart",
+      "layer": "organs",
+      "nodes": [
+        "Leftatrium",
+        "Inferiorpapillarymuscleofleftventricle",
+        "Rightatrium",
+        "Anteriorpapillarymuscleofrightventricle",
+        "Inferiorpapillarymuscleofrightventricle",
+        "Septalpapillarymuscleofrightventricle",
+        "Inferiorleafletofrightatrioventricularvalve",
+        "Posteriorleafletofleftatrioventricularvalve",
+        "Septalleafletofrightatrioventricularvalve",
+        "Leftcoronaryleaflet",
+        "Non-coronaryleaflet",
+        "Rightcoronaryleaflet",
+        "Anteriorsemilunarleafletofpulmonaryvalve",
+        "Leftsemilunarleafletofpulmonaryvalve",
+        "Rightsemilunarleafletofpulmonaryvalve",
+        "Leftventricle",
+        "Rightventricle"
+      ],
+      "nodesRaw": [
+        "Left atrium",
+        "Inferior papillary muscle of left ventricle",
+        "Right atrium",
+        "Anterior papillary muscle of right ventricle",
+        "Inferior papillary muscle of right ventricle",
+        "Septal papillary muscle of right ventricle",
+        "Inferior leaflet of right atrioventricular valve",
+        "Posterior leaflet of left atrioventricular valve",
+        "Septal leaflet of right atrioventricular valve",
+        "Left coronary leaflet",
+        "Non-coronary leaflet",
+        "Right coronary leaflet",
+        "Anterior semilunar leaflet of pulmonary valve",
+        "Left semilunar leaflet of pulmonary valve",
+        "Right semilunar leaflet of pulmonary valve",
+        "Left ventricle",
+        "Right ventricle"
+      ],
+      "subgroups": {
+        "chambers": [
+          "Leftatrium",
+          "Rightatrium",
+          "Leftventricle",
+          "Rightventricle"
+        ],
+        "papillary_muscles": [
+          "Inferiorpapillarymuscleofleftventricle",
+          "Anteriorpapillarymuscleofrightventricle",
+          "Inferiorpapillarymuscleofrightventricle",
+          "Septalpapillarymuscleofrightventricle"
+        ],
+        "valves": [
+          "Inferiorleafletofrightatrioventricularvalve",
+          "Posteriorleafletofleftatrioventricularvalve",
+          "Septalleafletofrightatrioventricularvalve",
+          "Leftcoronaryleaflet",
+          "Non-coronaryleaflet",
+          "Rightcoronaryleaflet",
+          "Anteriorsemilunarleafletofpulmonaryvalve",
+          "Leftsemilunarleafletofpulmonaryvalve",
+          "Rightsemilunarleafletofpulmonaryvalve"
+        ]
+      }
+    },
+    "lungs": {
+      "label": "Lungs",
+      "layer": "organs",
+      "nodes": [
+        "Inferiorlobeofleftlung",
+        "Superiorlobeofleftlung",
+        "Inferiorlobeofrightlung",
+        "Middlelobeofrightlung",
+        "Superiorlobeofrightlung"
+      ],
+      "nodesRaw": [
+        "Inferior lobe of left lung",
+        "Superior lobe of left lung",
+        "Inferior lobe of right lung",
+        "Middle lobe of right lung",
+        "Superior lobe of right lung"
+      ],
+      "subgroups": {
+        "left": [
+          "Inferiorlobeofleftlung",
+          "Superiorlobeofleftlung"
+        ],
+        "right": [
+          "Inferiorlobeofrightlung",
+          "Middlelobeofrightlung",
+          "Superiorlobeofrightlung"
+        ]
+      }
+    },
+    "airway": {
+      "label": "Airway",
+      "layer": "organs",
+      "nodes": [
+        "Epiglottis",
+        "Mucosaofnasalcavity",
+        "AnteriorbasalsegmentalbronchusofleftlungBVIII",
+        "LateralbasalsegmentalbronchusofleftlungBIX",
+        "MedialbasalsegmentalbronchusofleftlungBVII",
+        "PosteriorbasalsegmentalbronchusofleftlungBX",
+        "SuperiorsegmentalbronchusofleftlungBVI",
+        "AnteriorsegmentalbronchusofleftlungBIII",
+        "ApicoposteriorsegmentalbronchusofleftlungBIBII",
+        "InferiorlingularsegmentalbronchusofleftlungBV",
+        "SuperiorlingularsegmentalbronchusofleftlungBIV",
+        "LateralsegmentalbronchusofrightlungBIV",
+        "MedialsegmentalbronchusofrightlungBV",
+        "AnteriorbasalsegmentalbronchusofrightlungBVIII",
+        "LateralbasalsegmentalbronchusofrightlungBIX",
+        "MedialbasalsegmentalbronchusofrightlungBVII",
+        "PosteriorbasalsegmentalbronchusofrightlungBX",
+        "SuperiorsegmentalbronchusofrightlungBVI",
+        "AnteriorsegmentalbronchusofrightlungBIII",
+        "ApicalsegmentalbronchusofrightlungBI",
+        "PosteriorsegmentalbronchusofrightlungBII",
+        "Trachea",
+        "Leftinferiorlobarbronchus",
+        "Leftsuperiorlobarbronchus",
+        "Leftmainbronchus",
+        "MiddlelobarbronchusR",
+        "Rightinferiorlobarbronchus",
+        "IntermediatebronchusR",
+        "Rightsuperiorlobarbronchus",
+        "Rightmainbronchus"
+      ],
+      "nodesRaw": [
+        "Epiglottis",
+        "Mucosa of nasal cavity",
+        "Anterior basal segmental bronchus of left lung (BVIII)",
+        "Lateral basal segmental bronchus of left lung (BIX)",
+        "Medial basal segmental bronchus of left lung (BVII)",
+        "Posterior basal segmental bronchus of left lung (BX)",
+        "Superior segmental bronchus of left lung (BVI)",
+        "Anterior segmental bronchus of left lung (BIII)",
+        "Apicoposterior segmental bronchus of left lung (BI+BII)",
+        "Inferior lingular segmental bronchus of left lung (BV)",
+        "Superior lingular segmental bronchus of left lung (BIV)",
+        "Lateral segmental bronchus of right lung (BIV)",
+        "Medial segmental bronchus of right lung (BV)",
+        "Anterior basal segmental bronchus of right lung (BVIII)",
+        "Lateral basal segmental bronchus of right lung (BIX)",
+        "Medial basal segmental bronchus of right lung (BVII)",
+        "Posterior basal segmental bronchus of right lung (BX)",
+        "Superior segmental bronchus of right lung (BVI)",
+        "Anterior segmental bronchus of right lung (BIII)",
+        "Apical segmental bronchus of right lung (BI)",
+        "Posterior segmental bronchus of right lung (BII)",
+        "Trachea",
+        "Left inferior lobar bronchus",
+        "Left superior lobar bronchus",
+        "Left main bronchus",
+        "Middle lobar bronchus R",
+        "Right inferior lobar bronchus",
+        "Intermediate bronchus R",
+        "Right superior lobar bronchus",
+        "Right main bronchus"
+      ],
+      "subgroups": {
+        "larynx": [
+          "Epiglottis"
+        ],
+        "nose": [
+          "Mucosaofnasalcavity"
+        ],
+        "segmental_bronchi": [
+          "AnteriorbasalsegmentalbronchusofleftlungBVIII",
+          "LateralbasalsegmentalbronchusofleftlungBIX",
+          "MedialbasalsegmentalbronchusofleftlungBVII",
+          "PosteriorbasalsegmentalbronchusofleftlungBX",
+          "SuperiorsegmentalbronchusofleftlungBVI",
+          "AnteriorsegmentalbronchusofleftlungBIII",
+          "ApicoposteriorsegmentalbronchusofleftlungBIBII",
+          "InferiorlingularsegmentalbronchusofleftlungBV",
+          "SuperiorlingularsegmentalbronchusofleftlungBIV",
+          "LateralsegmentalbronchusofrightlungBIV",
+          "MedialsegmentalbronchusofrightlungBV",
+          "AnteriorbasalsegmentalbronchusofrightlungBVIII",
+          "LateralbasalsegmentalbronchusofrightlungBIX",
+          "MedialbasalsegmentalbronchusofrightlungBVII",
+          "PosteriorbasalsegmentalbronchusofrightlungBX",
+          "SuperiorsegmentalbronchusofrightlungBVI",
+          "AnteriorsegmentalbronchusofrightlungBIII",
+          "ApicalsegmentalbronchusofrightlungBI",
+          "PosteriorsegmentalbronchusofrightlungBII"
+        ],
+        "trachea": [
+          "Trachea"
+        ],
+        "main_and_lobar_bronchi": [
+          "Leftinferiorlobarbronchus",
+          "Leftsuperiorlobarbronchus",
+          "Leftmainbronchus",
+          "MiddlelobarbronchusR",
+          "Rightinferiorlobarbronchus",
+          "IntermediatebronchusR",
+          "Rightsuperiorlobarbronchus",
+          "Rightmainbronchus"
+        ]
+      }
+    },
+    "liver": {
+      "label": "Liver",
+      "layer": "organs",
+      "nodes": [
+        "AnteriorlateralsegmentofliverVI",
+        "AnteriormedialsegmentofliverV",
+        "LeftanteriorlateralsegmentofliverIII",
+        "LeftmedialsegmentofliverIV",
+        "LeftposteriorlateralsegmentofliverII",
+        "PosteriorlateralsegmentofliverVII",
+        "PosteriormedialsegmentofliverVIII",
+        "PosteriorsegmentofliverI",
+        "Liver"
+      ],
+      "nodesRaw": [
+        "Anterior lateral segment of liver (VI)",
+        "Anterior medial segment of liver (V)",
+        "Left anterior lateral segment of liver (III)",
+        "Left medial segment of liver (IV)",
+        "Left posterior lateral segment of liver (II)",
+        "Posterior lateral segment of liver (VII)",
+        "Posterior medial segment of liver (VIII)",
+        "Posterior segment of liver (I)",
+        "Liver"
+      ],
+      "subgroups": {
+        "segments": [
+          "AnteriorlateralsegmentofliverVI",
+          "AnteriormedialsegmentofliverV",
+          "LeftanteriorlateralsegmentofliverIII",
+          "LeftmedialsegmentofliverIV",
+          "LeftposteriorlateralsegmentofliverII",
+          "PosteriorlateralsegmentofliverVII",
+          "PosteriormedialsegmentofliverVIII",
+          "PosteriorsegmentofliverI"
+        ],
+        "whole": [
+          "Liver"
+        ]
+      }
+    },
+    "gallbladder": {
+      "label": "Gallbladder and bile duct",
+      "layer": "organs",
+      "nodes": [
+        "Bileduct",
+        "Gallbladder"
+      ],
+      "nodesRaw": [
+        "Bile duct",
+        "Gallbladder"
+      ]
+    },
+    "pancreas": {
+      "label": "Pancreas",
+      "layer": "organs",
+      "nodes": [
+        "Accessorypancreaticduct",
+        "Pancreaticduct",
+        "Pancreas"
+      ],
+      "nodesRaw": [
+        "Accessory pancreatic duct",
+        "Pancreatic duct",
+        "Pancreas"
+      ]
+    },
+    "stomach": {
+      "label": "Stomach",
+      "layer": "organs",
+      "nodes": [
+        "Mucosaofstomach",
+        "Stomach"
+      ],
+      "nodesRaw": [
+        "Mucosa of stomach",
+        "Stomach"
+      ]
+    },
+    "small_intestine": {
+      "label": "Small intestine",
+      "layer": "organs",
+      "nodes": [
+        "Duodenum",
+        "Jejunum"
+      ],
+      "nodesRaw": [
+        "Duodenum",
+        "Jejunum"
+      ],
+      "subgroups": {
+        "duodenum": [
+          "Duodenum"
+        ],
+        "jejunum": [
+          "Jejunum"
+        ]
+      }
+    },
+    "large_intestine": {
+      "label": "Large intestine",
+      "layer": "organs",
+      "nodes": [
+        "Meso-appendix",
+        "Ascendingcolon",
+        "Descendingcolon",
+        "Sigmoidcolon",
+        "Freetaenia",
+        "Mesocolictaenia",
+        "Omentaltaenia",
+        "Transversecolon",
+        "Vermiformappendix"
+      ],
+      "nodesRaw": [
+        "Meso-appendix",
+        "Ascending colon",
+        "Descending colon",
+        "Sigmoid colon",
+        "Free taenia",
+        "Mesocolic taenia",
+        "Omental taenia",
+        "Transverse colon",
+        "Vermiform appendix"
+      ]
+    },
+    "bladder": {
+      "label": "Bladder and urinary tract",
+      "layer": "organs",
+      "nodes": [
+        "UreterL",
+        "UreterR",
+        "Urethra",
+        "Urinarybladder"
+      ],
+      "nodesRaw": [
+        "Ureter L",
+        "Ureter R",
+        "Urethra",
+        "Urinary bladder"
+      ]
+    },
+    "thyroid": {
+      "label": "Thyroid and parathyroid glands",
+      "layer": "organs",
+      "nodes": [
+        "InferiorparathyroidglandL",
+        "InferiorparathyroidglandR",
+        "SuperiorparathyroidglandL",
+        "SuperiorparathyroidglandR",
+        "Thyroidgland"
+      ],
+      "nodesRaw": [
+        "Inferior parathyroid gland L",
+        "Inferior parathyroid gland R",
+        "Superior parathyroid gland L",
+        "Superior parathyroid gland R",
+        "Thyroid gland"
+      ],
+      "subgroups": {
+        "parathyroids": [
+          "InferiorparathyroidglandL",
+          "InferiorparathyroidglandR",
+          "SuperiorparathyroidglandL",
+          "SuperiorparathyroidglandR"
+        ],
+        "thyroid": [
+          "Thyroidgland"
+        ]
+      }
+    },
+    "oesophagus": {
+      "label": "Oesophagus",
+      "layer": "organs",
+      "nodes": [
+        "Oesophagus"
+      ],
+      "nodesRaw": [
+        "Oesophagus"
+      ]
+    },
+    "reproductive": {
+      "label": "Male reproductive organs",
+      "layer": "organs",
+      "nodes": [
+        "Corpuscavernosumofpenis",
+        "Corpusspongiosumofpenis",
+        "Glanspenis",
+        "DuctusdeferensL",
+        "DuctusdeferensR",
+        "EjaculatoryductL",
+        "EjaculatoryductR",
+        "EpididymisL",
+        "EpididymisR",
+        "Prostate",
+        "SeminalglandL",
+        "SeminalglandR",
+        "TestisL",
+        "TestisR"
+      ],
+      "nodesRaw": [
+        "Corpus cavernosum of penis",
+        "Corpus spongiosum of penis",
+        "Glans penis",
+        "Ductus deferens L",
+        "Ductus deferens R",
+        "Ejaculatory duct L",
+        "Ejaculatory duct R",
+        "Epididymis L",
+        "Epididymis R",
+        "Prostate",
+        "Seminal gland L",
+        "Seminal gland R",
+        "Testis L",
+        "Testis R"
+      ]
+    },
+    "endocrine": {
+      "label": "Pituitary, pineal and adrenal glands",
+      "layer": "organs",
+      "nodes": [
+        "Adenohypophysis",
+        "Neurohypophysis",
+        "Pinealgland",
+        "SuprarenalglandL",
+        "SuprarenalglandR"
+      ],
+      "nodesRaw": [
+        "Adenohypophysis",
+        "Neurohypophysis",
+        "Pineal gland",
+        "Suprarenal gland L",
+        "Suprarenal gland R"
+      ]
+    },
+    "mouth_throat": {
+      "label": "Mouth and throat",
+      "layer": "organs",
+      "nodes": [
+        "Laryngopharynx",
+        "Nasopharynx",
+        "Oropharynx",
+        "Gingiva",
+        "ParotidductL",
+        "ParotidductR",
+        "ParotidglandL",
+        "ParotidglandR",
+        "SublingualglandL",
+        "SublingualglandR",
+        "SubmandibularductL",
+        "SubmandibularductR",
+        "SubmandibularglandL",
+        "SubmandibularglandR",
+        "Softpalate",
+        "Tongue",
+        "Uvulaofpalate"
+      ],
+      "nodesRaw": [
+        "Laryngopharynx",
+        "Nasopharynx",
+        "Oropharynx",
+        "Gingiva",
+        "Parotid duct L",
+        "Parotid duct R",
+        "Parotid gland L",
+        "Parotid gland R",
+        "Sublingual gland L",
+        "Sublingual gland R",
+        "Submandibular duct L",
+        "Submandibular duct R",
+        "Submandibular gland L",
+        "Submandibular gland R",
+        "Soft palate",
+        "Tongue",
+        "Uvula of palate"
+      ]
+    },
+    "other": {
+      "label": "Membranes and folds (pleura, omenta, mesocolon)",
+      "layer": "organs",
+      "nodes": [
+        "Greateromentum",
+        "Lesseromentum",
+        "Pleura",
+        "Mesocolon"
+      ],
+      "nodesRaw": [
+        "Greater omentum",
+        "Lesser omentum",
+        "Pleura",
+        "Mesocolon"
+      ]
+    },
+    "spleen": {
+      "label": "Spleen",
+      "layer": "lymphoid",
+      "nodes": [
+        "Spleen"
+      ],
+      "nodesRaw": [
+        "Spleen"
+      ]
+    },
+    "thymus": {
+      "label": "Thymus",
+      "layer": "lymphoid",
+      "nodes": [
+        "Leftlobeofthymus",
+        "Rightlobeofthymus"
+      ],
+      "nodesRaw": [
+        "Left lobe of thymus",
+        "Right lobe of thymus"
+      ]
+    },
+    "tonsils": {
+      "label": "Palatine tonsils",
+      "layer": "lymphoid",
+      "nodes": [
+        "Palatinetonsill",
+        "Palatinetonsilr"
+      ],
+      "nodesRaw": [
+        "Palatine tonsil.l",
+        "Palatine tonsil.r"
+      ]
+    }
+  },
+  "dropped": {
+    "kidney": {
+      "nodes": [
+        {
+          "name": "Kidney L",
+          "key": "KidneyL"
+        },
+        {
+          "name": "Kidney R",
+          "key": "KidneyR"
+        }
+      ],
+      "reason": "Kidney L/R dropped: Z-Anatomy's kidney is credited to a CC BY-NC 4.0 model (lissiecowley); provenance of the shandons-repo copy is not verifiable, so it is omitted to keep the build CC BY-SA clean. Use a HuBMAP (CC BY 4.0) or BodyParts3D kidney if one is wanted."
+    },
+    "renalPelvis": {
+      "nodes": [
+        {
+          "name": "Renal pelvis L",
+          "key": "RenalpelvisL"
+        },
+        {
+          "name": "Renal pelvis R",
+          "key": "RenalpelvisR"
+        }
+      ],
+      "reason": "Renal pelvis L/R dropped: same source family as the dropped kidney, and its upstream licence cannot be verified, so it is omitted to keep the build CC BY-SA clean. Ureters and urethra stay in 'bladder'."
+    }
+  },
+  "notMapped": {
+    "lymphNodes": {
+      "count": 153,
+      "reason": "Regional lymph node meshes in the lymphoid layer are outside the requested scope (spleen, thymus, tonsils only)."
+    },
+    "layers": "muscles.glb, vessels.glb and skin.glb are not mapped here (out of scope). Great-vessel stubs (aorta, pulmonary trunk, venae cavae) live in vessels.glb, not organs.glb, so the heart group holds chambers, papillary muscles and valve leaflets only.",
+    "brain": "No whole-brain mesh exists in organs.glb, so there is no body 'brain' group; the brain is handled by brain-map.json (nerves.glb).",
+    "ileum": "No ileum mesh exists; small_intestine holds duodenum and jejunum.",
+    "rectum": "No rectum mesh exists; large_intestine holds ascending, transverse, descending and sigmoid colon, taeniae and appendix."
+  },
+  "notes": [
+    "Keys are sanitize(name) = name.replace(/[^A-Za-z0-9_-]/g, ''); nodesRaw carries the original names index-aligned with nodes. Lymphoid names use Blender dot style (Palatine tonsil.l becomes Palatinetonsill).",
+    "A group has one layer. Laryngeal cartilages and the hyoid are skeleton-layer meshes, so they form their own 'larynx' group (layer skeleton); the epiglottis, trachea and bronchi are in 'airway' (layer organs).",
+    "Extra groups beyond the brief: larynx, endocrine, mouth_throat, thymus, tonsils (needed so every skeleton, organ and lymphoid node in scope lands in exactly one group). Parathyroids sit in 'thyroid'. Ureters and urethra sit in 'bladder'; the renal pelvis is dropped (see `dropped`).",
+    "Hip-joint capsule, ligaments and labrum are assigned to the leg groups; ankle ligaments to the foot groups; wrist and carpal ligaments to the hand groups; shoulder-joint ligaments to shoulder_girdle; sacro-iliac and pubic ligaments to pelvis.",
+    "Unsided names were resolved to L or R by twin lookup (for example 'Ulnopisiform ligament' is R because 'Ulnopisiform ligament L' exists).",
+    "The spine and ribcage are split into one region per vertebra, disc and rib. Each intervertebral disc region joins the disc with its nucleus pulposus; each rib joins the bone with its costal cartilage (ribs 11 and 12 have none). `spine` and `ribcage` keep the sacrum, coccyx, sternum and the ligaments, so their ids still work. Regions sharing a `pivot` key take one node origin (the joint centre of the family), so the family scales and breathes as one."
+  ],
+  "keyCollisions": [],
+  "unmapped": {
+    "skeleton": [],
+    "organs": [],
+    "lymphoid": []
+  }
+}

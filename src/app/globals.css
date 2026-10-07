@@ -1,0 +1,336 @@
+@import "tailwindcss";
+
+/* `dark:` keys off the theme attribute the engine sets on <html>, never the OS media query. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+/* A landscape phone: the window is shorter than a stage is tall, so the page gives the stage the screen. */
+@custom-variant short (@media (orientation: landscape) and (max-height: 520px));
+/*
+ * A tall enough desktop window for the stage column to stay put while the side column scrolls past it. The column
+ * (stage, explode row and age control on /body) is 322px plus 58vh tall, 460px of stage at the least, and sticks 16px
+ * from the top: measured, /body at 768px wide needs 840px of window to clear the bottom edge with 14px to spare (it
+ * overran by 39px at 760px high, and by 18px at 900 and 1024 wide).
+ */
+@custom-variant roomy (@media (min-width: 768px) and (min-height: 840px));
+
+/*
+ * The Plate theme (an anatomy-atlas look): warm paper,
+ * ink, and one accent, oxblood. The older semantic names are kept and point at the atlas values, so
+ * every component takes the look without a rename.
+ */
+:root {
+  --ground: #efe6d1;
+  --ground-raised: #f7f0de;
+  --plate-rule: #b9a57f;
+  --leader: #6b5540;
+  --oxblood: #8e2b22;
+  --on-oxblood: #f7f0de;
+
+  --bg: var(--ground);
+  --surface: var(--ground-raised);
+  --surface-hover: #efe4cb;
+  --border: var(--plate-rule);
+  /*
+   * The edge of a control the visitor types or presses in (the part search, the theme toggle): WCAG 1.4.11
+   * asks 3:1 for a control's boundary, and --plate-rule (1.8:1) is only a decoration. Measured: #857059 is
+   * 3.79:1 on the ground, 4.14:1 on the raised surface and 3.73:1 on the hover surface.
+   */
+  --field-border: #857059;
+  --ink: #2b2118;
+  --ink-muted: #5f4e3c;
+  --ink-secondary: var(--ink-muted);
+  --ink-tertiary: var(--ink-muted);
+  --accent: var(--oxblood);
+  --accent-hover: #a6392e;
+  --accent-strong: #6e1f18;
+  --surface-inverted: #2b2118;
+  --ink-inverted: #f7f0de;
+  --ink-inverted-secondary: #d9ccb0;
+  --positive: #5f8a57;
+  --caution: #8a6a1c;
+  --error: #a3322c;
+}
+
+/*
+ * The Night plate: the same atlas after dark. Warm ink ground (never black), paper-coloured type, and
+ * the oxblood lifted to a coral so the selected part and its leader still stand out. Ratios (WCAG):
+ * ink 13.7:1 and muted 8.0:1 on ground, leader 6.0:1, accent 6.2:1 on ground and 5.5:1 on raised.
+ */
+[data-theme="dark"] {
+  --ground: #1f1a14;
+  --ground-raised: #2a231b;
+  --plate-rule: #5a4c3b;
+  --leader: #a8957a;
+  --oxblood: #e0806f;
+  --on-oxblood: #1f1a14;
+
+  --surface-hover: #342b21;
+  /* Night twin of --field-border. Measured: #8a7860 is 4.06:1 on the ground, 3.64:1 on the raised surface and 3.26:1 on the hover surface. */
+  --field-border: #8a7860;
+  --ink: #efe4cf;
+  --ink-muted: #bfae92;
+  --accent-hover: #ec9686;
+  --accent-strong: #f0a898;
+  --surface-inverted: #efe4cf;
+  --ink-inverted: #1f1a14;
+  --ink-inverted-secondary: #4a3e30;
+  --positive: #86ad7c;
+  --caution: #d2a94a;
+  --error: #b83a32;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-secondary: var(--ink-secondary);
+  --color-ink-tertiary: var(--ink-tertiary);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-strong: var(--accent-strong);
+  --color-surface-inverted: var(--surface-inverted);
+  --color-ink-inverted: var(--ink-inverted);
+  --color-ink-inverted-secondary: var(--ink-inverted-secondary);
+  --color-positive: var(--positive);
+  --color-caution: var(--caution);
+  --color-error: var(--error);
+  --color-leader: var(--leader);
+  --color-plate-rule: var(--plate-rule);
+  --font-display: var(--font-cormorant), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-eb-garamond), "Iowan Old Style", Georgia, serif;
+  /* Plates are cut square; buttons and inputs sit just off square. Round only what is round. */
+  --radius-xs: 2px;
+  --radius-sm: 2px;
+  --radius-md: 2px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* Garamond sets small: 17px is the atlas's body size, and every rem scales with it. */
+  font-size: 106.25%;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-oxblood);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--leader);
+}
+
+/* The explode slider: a native range, tinted to the accent. */
+input[type="range"][data-explode-range] {
+  accent-color: var(--accent);
+}
+
+/*
+ * The age scrubber, on the atlas plate: a 44 px band to grab, a 2 px hairline track filled to the thumb in
+ * oxblood, a round oxblood thumb ringed in paper, and a double ring round the thumb for keyboard focus. The
+ * ticks and names under it (age-scrubber.tsx) share the thumb's inset, --age-thumb. --p is the stage, 0 to 1.
+ */
+[data-age-control] {
+  --age-thumb: 24px;
+}
+input[type="range"][data-age-range] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  --fill: calc(var(--age-thumb) / 2 + (100% - var(--age-thumb)) * var(--p));
+}
+input[type="range"][data-age-range]::-webkit-slider-runnable-track {
+  height: 2px;
+  background: linear-gradient(to right, var(--oxblood) var(--fill), var(--plate-rule) var(--fill));
+}
+input[type="range"][data-age-range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  width: var(--age-thumb);
+  height: var(--age-thumb);
+  margin-top: calc((2px - var(--age-thumb)) / 2);
+  border: 3px solid var(--ground-raised);
+  border-radius: 50%;
+  background: var(--oxblood);
+  box-shadow: 0 0 0 1px var(--oxblood);
+}
+input[type="range"][data-age-range]::-moz-range-track {
+  height: 2px;
+  background: var(--plate-rule);
+}
+input[type="range"][data-age-range]::-moz-range-progress {
+  height: 2px;
+  background: var(--oxblood);
+}
+input[type="range"][data-age-range]::-moz-range-thumb {
+  box-sizing: border-box;
+  width: var(--age-thumb);
+  height: var(--age-thumb);
+  border: 3px solid var(--ground-raised);
+  border-radius: 50%;
+  background: var(--oxblood);
+  box-shadow: 0 0 0 1px var(--oxblood);
+}
+input[type="range"][data-age-range]:hover::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px var(--oxblood), 0 0 0 6px color-mix(in srgb, var(--oxblood) 22%, transparent);
+}
+input[type="range"][data-age-range]:hover::-moz-range-thumb {
+  box-shadow: 0 0 0 1px var(--oxblood), 0 0 0 6px color-mix(in srgb, var(--oxblood) 22%, transparent);
+}
+input[type="range"][data-age-range]:focus-visible {
+  outline: none;
+}
+input[type="range"][data-age-range]:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px var(--oxblood), 0 0 0 4px var(--ground-raised), 0 0 0 6px var(--oxblood);
+}
+input[type="range"][data-age-range]:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 1px var(--oxblood), 0 0 0 4px var(--ground-raised), 0 0 0 6px var(--oxblood);
+}
+
+/* Controls the engine draws at 32px (the share, screenshot, AR and sound icons) or 25px (the found counter's Reset): a phone-sized target. */
+@media (max-width: 767.98px) {
+  [data-explode-controls] button,
+  [data-found-counter] button {
+    /* 36px at the page's 17px root, the least a phone control may be; the row of icons still fits beside Isolate. */
+    min-height: 2.125rem;
+    min-width: 2.125rem;
+  }
+}
+
+/* A landscape phone window has no height to spare: the theme toggle's 44px segments (engine/explode/ui/theme-toggle.tsx) set the header bar's height, so they shrink to the phone size above. */
+@media (orientation: landscape) and (max-height: 520px) {
+  [data-theme-toggle] button {
+    width: 2.125rem;
+    height: 2.125rem;
+  }
+}
+
+/* While the sandwich tour runs on a phone, its sheet stands in for the part sheet. */
+@media (max-width: 767.98px) {
+  [data-tour-active] [data-info-panel] {
+    display: none;
+  }
+}
+
+/* Leader labels on the stage (engine/explode/stage.tsx): rest, hover, selected, dimmed. */
+[data-leader] {
+  position: absolute;
+  /* The engine sets max-width to the measured text; padding (a lone label's slip) comes on top. */
+  box-sizing: content-box;
+  transform: translateY(-50%);
+  pointer-events: auto;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: italic 500 15px/18px var(--font-display);
+  color: var(--ink-muted);
+  text-underline-offset: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 150ms;
+}
+/* A lone label sits over the model, not beside it: it gets a slip of paper to stand on. */
+[data-leaders][data-few="true"] [data-leader] {
+  padding: 1px 6px;
+  background: var(--ground-raised);
+  box-shadow: 0 0 0 1px var(--plate-rule);
+}
+/* A body drawn small (the infant, the toddler) would have 50 leaders fanning out of one spot: only a hovered or selected part keeps its label. */
+body:has([data-age-small]) [data-leader][data-state="rest"],
+body:has([data-age-small]) [data-leader-line][data-state="rest"] {
+  display: none;
+}
+/*
+ * In a landscape phone window the stage is barely 225px tall. The body's labels would sit 10px apart under an
+ * 18px line, so most would overprint: /body keeps only a hovered or selected label there ([data-age-control] is on
+ * /body alone). /brain keeps its leaders, and its columns of eight sit 16px apart, so its line is 16px too. The
+ * query is the `short` variant's (see the top of this file).
+ */
+@media (orientation: landscape) and (max-height: 520px) {
+  [data-leader] {
+    line-height: 16px;
+  }
+  body:has([data-age-control]) [data-leader][data-state="rest"],
+  body:has([data-age-control]) [data-leader-line][data-state="rest"] {
+    display: none;
+  }
+}
+[data-leader][data-state="hover"] {
+  color: var(--ink);
+  text-decoration: underline;
+}
+[data-leader][data-state="selected"] {
+  color: var(--oxblood);
+  font-weight: 600;
+}
+[data-leader][data-state="dimmed"],
+[data-leader-line][data-state="dimmed"] {
+  opacity: 0.3;
+}
+[data-leader-line] line {
+  stroke: var(--leader);
+  stroke-width: 1;
+}
+[data-leader-line] circle {
+  fill: var(--leader);
+}
+[data-leader-line][data-state="selected"] line {
+  stroke: var(--oxblood);
+}
+[data-leader-line][data-state="selected"] circle {
+  fill: var(--oxblood);
+}
+
+/* The plate frame: a hairline rule inset from the stage's edge, which also crops the view. */
+[data-plate] [data-stage-gate] {
+  clip-path: inset(12px);
+}
+[data-plate]::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid var(--plate-rule);
+  pointer-events: none;
+  z-index: 1;
+}

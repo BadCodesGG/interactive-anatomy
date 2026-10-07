@@ -1,0 +1,18 @@
+This project's code is licensed under the MIT licence in LICENSE. The
+following are not covered by it.
+
+The anatomy models are not covered by the MIT licence. The source files in
+assets/anatomy/*.glb, the models derived from them in public/models/*.glb
+(brain and body; fixture.*.glb is a synthetic test model and is MIT), the
+poster images rendered from those models in public/posters/*.png and the
+social card public/og.jpg, which shows the brain model, are derived from
+Z-Anatomy, which releases them under CC BY-SA 4.0 and builds on BodyParts3D
+(CC BY-SA 2.1 Japan) and Brainder (CC BY-SA 3.0). They are distributed here
+under Z-Anatomy's CC BY-SA 4.0 terms
+(https://creativecommons.org/licenses/by-sa/4.0/). The upstream credits for
+BodyParts3D and Brainder are kept in README.md, which also describes the
+modifications made.
+
+The BadCodes name, logo and wordmark are not licensed under the MIT licence.
+A fork keeps the copyright notice in LICENSE but should not present itself as
+BadCodes or use the logo as its own brand.

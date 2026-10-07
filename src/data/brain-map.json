@@ -1,0 +1,2045 @@
+{
+  "lobes": {
+    "frontal": {
+      "label": "Frontal lobe",
+      "nodes": [
+        "Lat_Fis-ant-HorizontL",
+        "Lat_Fis-ant-HorizontR",
+        "Lat_Fis-ant-VerticalL",
+        "Lat_Fis-ant-VerticalR",
+        "MiddlefrontalgyrusL",
+        "MiddlefrontalgyrusR",
+        "OrbitalgyriFrontomarginalgyrusandsulcusL",
+        "OrbitalgyriFrontomarginalgyrusandsulcusR",
+        "OrbitalgyriL",
+        "OrbitalgyriR",
+        "OrbitalpartofinferiorfrontalgyrusL",
+        "OrbitalsulciH-shapedorbitalsulciL",
+        "OrbitalsulciH-shapedorbitalsulciR",
+        "OrbitalsulciLateralOrbitalsulcusL",
+        "OrbitalsulciLateralOrbitalsulcusR",
+        "ParacentralgyrusandsulcusL",
+        "ParacentralgyrusandsulcusR",
+        "PrecentralgyrusL",
+        "PrecentralgyrusR",
+        "InferiorfrontalsulcusL",
+        "OrbitalpartofinferiorfrontalgyrusR",
+        "OlfactorysulcusL",
+        "OlfactorysulcusR",
+        "OpercularpartofinferiorfrontalgyrusL",
+        "OpercularpartofinferiorfrontalgyrusR",
+        "ParacentralsulcusL",
+        "ParacentralsulcusR",
+        "PrecentralsulcusinferiorpartL",
+        "PrecentralsulcusinferiorpartR",
+        "PrecentralsulcusSuperiorpartL",
+        "PrecentralsulcusSuperiorpartR",
+        "StraightgyrusGyrusrectusL",
+        "StraightgyrusGyrusrectusR",
+        "SuperiorfrontalgyrusL",
+        "SuperiorfrontalgyrusR",
+        "SuperiorfrontalsulcusL",
+        "SuperiorfrontalsulcusR",
+        "TransversefrontopolargyrusandsulcusL",
+        "TransversefrontopolargyrusandsulcusR",
+        "TriangularpartofinferiorfrontalgyrusL",
+        "TriangularpartofinferiorfrontalgyrusR",
+        "CentralsulcusL",
+        "CentralsulcusR",
+        "InferiorfrontalsulcusR"
+      ],
+      "nodesRaw": [
+        "Lat_Fis-ant-Horizont L",
+        "Lat_Fis-ant-Horizont R",
+        "Lat_Fis-ant-Vertical L",
+        "Lat_Fis-ant-Vertical R",
+        "Middle frontal gyrus L",
+        "Middle frontal gyrus R",
+        "Orbital gyri (Frontomarginal gyrus and sulcus*) L",
+        "Orbital gyri (Frontomarginal gyrus and sulcus*) R",
+        "Orbital gyri L",
+        "Orbital gyri R",
+        "Orbital part of  inferior frontal gyrus L",
+        "Orbital sulci (H-shaped orbital sulci*) L",
+        "Orbital sulci (H-shaped orbital sulci*) R",
+        "Orbital sulci (Lateral Orbital sulcus*) L",
+        "Orbital sulci (Lateral Orbital sulcus*) R",
+        "Paracentral gyrus and sulcus* L",
+        "Paracentral gyrus and sulcus* R",
+        "Precentral gyrus L",
+        "Precentral gyrus R",
+        "Inferior frontal sulcus L",
+        "Orbital part of  inferior frontal gyrus R",
+        "Olfactory sulcus L",
+        "Olfactory sulcus R",
+        "Opercular part of inferior frontal gyrus L",
+        "Opercular part of inferior frontal gyrus R",
+        "Paracentral sulcus L",
+        "Paracentral sulcus R",
+        "Precentral sulcus (inferior part)* L",
+        "Precentral sulcus (inferior part)* R",
+        "Precentral sulcus (Superior part)* L",
+        "Precentral sulcus (Superior part)* R",
+        "Straight gyrus (Gyrus rectus) L",
+        "Straight gyrus (Gyrus rectus) R",
+        "Superior frontal gyrus L",
+        "Superior frontal gyrus R",
+        "Superior frontal sulcus L",
+        "Superior frontal sulcus R",
+        "Transverse frontopolar gyrus and sulcus* L",
+        "Transverse frontopolar gyrus and sulcus* R",
+        "Triangular part of inferior frontal gyrus L",
+        "Triangular part of inferior frontal gyrus R",
+        "Central sulcus L",
+        "Central sulcus R",
+        "Inferior frontal sulcus R"
+      ]
+    },
+    "parietal": {
+      "label": "Parietal lobe",
+      "nodes": [
+        "SubparietalsulcusL",
+        "SubparietalsulcusR",
+        "Sulcusinterm_prim-JensenL",
+        "Sulcusinterm_prim-JensenR",
+        "AngulargyrusL",
+        "AngulargyrusR",
+        "PostcentralgyrusL",
+        "PostcentralgyrusR",
+        "PrecuneusL",
+        "PrecuneusR",
+        "IntraparietalsulcusL",
+        "IntraparietalsulcusR",
+        "PostcentralsulcusL",
+        "PostcentralsulcusR",
+        "SuperiorparietallobuleL",
+        "SuperiorparietallobuleR",
+        "SupramarginalgyrusL",
+        "SupramarginalgyrusR"
+      ],
+      "nodesRaw": [
+        "Subparietal sulcus L",
+        "Subparietal sulcus R",
+        "Sulcus interm_prim-Jensen L",
+        "Sulcus interm_prim-Jensen R",
+        "Angular gyrus L",
+        "Angular gyrus R",
+        "Postcentral gyrus L",
+        "Postcentral gyrus R",
+        "Precuneus L",
+        "Precuneus R",
+        "Intraparietal sulcus L",
+        "Intraparietal sulcus R",
+        "Postcentral sulcus L",
+        "Postcentral sulcus R",
+        "Superior parietal lobule L",
+        "Superior parietal lobule R",
+        "Supramarginal gyrus L",
+        "Supramarginal gyrus R"
+      ]
+    },
+    "temporal": {
+      "label": "Temporal lobe",
+      "nodes": [
+        "CollateralsulcusL",
+        "CollateralsulcusR",
+        "Lat_Fis-postL",
+        "Lat_Fis-postR",
+        "InferiortemporalgyrusL",
+        "InferiortemporalgyrusR",
+        "LateraloccipitotemporalgyrusL",
+        "LateraloccipitotemporalgyrusR",
+        "MedialoccipitotemporalgyrusParahippocampalL",
+        "MedialoccipitotemporalgyrusParahippocampalR",
+        "MiddletemporalgyrusL",
+        "MiddletemporalgyrusR",
+        "OccipitotemporalsulcusLateralpartL",
+        "OccipitotemporalsulcusLateralpartR",
+        "InferiortemporalsulcusL",
+        "InferiortemporalsulcusR",
+        "SuperiortemporalgyrusLateralpartL",
+        "SuperiortemporalgyrusLateralpartR",
+        "SuperiortemporalsulcusL",
+        "SuperiortemporalsulcusR",
+        "TemporalplaneL",
+        "TemporalplaneR",
+        "TemporalpoleL",
+        "TemporalpoleR",
+        "TransversetemporalgyriL",
+        "TransversetemporalgyriR"
+      ],
+      "nodesRaw": [
+        "Collateral sulcus L",
+        "Collateral sulcus R",
+        "Lat_Fis-post L",
+        "Lat_Fis-post R",
+        "Inferior temporal gyrus L",
+        "Inferior temporal gyrus R",
+        "Lateral occipitotemporal gyrus L",
+        "Lateral occipitotemporal gyrus R",
+        "Medial occipitotemporal gyrus (Parahippocampal*) L",
+        "Medial occipitotemporal gyrus (Parahippocampal*) R",
+        "Middle temporal gyrus L",
+        "Middle temporal gyrus R",
+        "Occipitotemporal sulcus (Lateral part*) L",
+        "Occipitotemporal sulcus (Lateral part*) R",
+        "Inferior temporal sulcus L",
+        "Inferior temporal sulcus R",
+        "Superior temporal gyrus (Lateral part) L",
+        "Superior temporal gyrus (Lateral part) R",
+        "Superior temporal sulcus L",
+        "Superior temporal sulcus R",
+        "Temporal plane L",
+        "Temporal plane R",
+        "Temporal pole L",
+        "Temporal pole R",
+        "Transverse temporal gyri L",
+        "Transverse temporal gyri R"
+      ]
+    },
+    "occipital": {
+      "label": "Occipital lobe",
+      "nodes": [
+        "AnterioroccipitalsulcusL",
+        "AnterioroccipitalsulcusR",
+        "PosteriortransversecollateralsulcusL",
+        "PosteriortransversecollateralsulcusR",
+        "Parieto-occipitalsulcusL",
+        "Parieto-occipitalsulcusR",
+        "CalcarinesulcusL",
+        "CalcarinesulcusR",
+        "CuneusL",
+        "CuneusR",
+        "InferioroccipitalgyrusandsulcusL",
+        "InferioroccipitalgyrusandsulcusR",
+        "LateraloccipitalgyrusMiddleoccipitalgyrusL",
+        "LateraloccipitalgyrusMiddleoccipitalgyrusR",
+        "LingualgyrusL",
+        "LingualgyrusR",
+        "LunatesulcusL",
+        "LunatesulcusR",
+        "OccipitalpoleL",
+        "OccipitalpoleR",
+        "SuperioroccipitalgyriL",
+        "SuperioroccipitalgyriR",
+        "TransverseoccipitalsulcusL",
+        "TransverseoccipitalsulcusR"
+      ],
+      "nodesRaw": [
+        "Anterior occipital sulcus* L",
+        "Anterior occipital sulcus* R",
+        "Posterior transverse collateral sulcus L",
+        "Posterior transverse collateral sulcus R",
+        "Parieto-occipital sulcus L",
+        "Parieto-occipital sulcus R",
+        "Calcarine sulcus L",
+        "Calcarine sulcus R",
+        "Cuneus L",
+        "Cuneus R",
+        "Inferior occipital gyrus and sulcus* L",
+        "Inferior occipital gyrus and sulcus* R",
+        "Lateral occipital gyrus (Middle occipital gyrus*) L",
+        "Lateral occipital gyrus (Middle occipital gyrus*) R",
+        "Lingual gyrus L",
+        "Lingual gyrus R",
+        "Lunate sulcus L",
+        "Lunate sulcus R",
+        "Occipital pole L",
+        "Occipital pole R",
+        "Superior occipital gyri L",
+        "Superior occipital gyri R",
+        "Transverse occipital sulcus L",
+        "Transverse occipital sulcus R"
+      ]
+    },
+    "insula": {
+      "label": "Insula",
+      "nodes": [
+        "InsulaSubcentralgyrusandantandpostsulciL",
+        "InsulaSubcentralgyrusandantandpostsulciR",
+        "CircularsulcusofinsulaL",
+        "CircularsulcusofinsulaR"
+      ],
+      "nodesRaw": [
+        "Insula (Subcentral gyrus and ant. and post. sulci*) L",
+        "Insula (Subcentral gyrus and ant. and post. sulci*) R",
+        "Circular sulcus of insula L",
+        "Circular sulcus of insula R"
+      ]
+    },
+    "cerebellum": {
+      "label": "Cerebellum",
+      "nodes": [
+        "AnteriorquadrangularlobuleL",
+        "AnteriorquadrangularlobuleR",
+        "BiventrallobuleL",
+        "BiventrallobuleR",
+        "Centrallobule",
+        "Culmen",
+        "Declive",
+        "FlocculusL",
+        "FlocculusR",
+        "Foliumofvermis",
+        "GracilelobuleL",
+        "GracilelobuleR",
+        "InferiorsemilunarlobuleL",
+        "InferiorsemilunarlobuleR",
+        "Lingulaofcerebellum",
+        "Noduleofvermis",
+        "PeduncleofflocculusL",
+        "PeduncleofflocculusR",
+        "PosteriorquadrangularlobuleL",
+        "PosteriorquadrangularlobuleR",
+        "Pyramisofvermis",
+        "SuperiorcerebellarpeduncleL",
+        "SuperiorcerebellarpeduncleR",
+        "SuperiorsemilunarlobuleL",
+        "SuperiorsemilunarlobuleR",
+        "TonsilofcerebellumL",
+        "TonsilofcerebellumR",
+        "Tuberofvermis",
+        "Uvulaofvermis",
+        "WingofcentrallobuleL",
+        "WingofcentrallobuleR"
+      ],
+      "nodesRaw": [
+        "Anterior quadrangular lobule L",
+        "Anterior quadrangular lobule R",
+        "Biventral lobule L",
+        "Biventral lobule R",
+        "Central lobule",
+        "Culmen",
+        "Declive",
+        "Flocculus L",
+        "Flocculus R",
+        "Folium of vermis",
+        "Gracile lobule L",
+        "Gracile lobule R",
+        "Inferior semilunar lobule L",
+        "Inferior semilunar lobule R",
+        "Lingula of cerebellum",
+        "Nodule of vermis",
+        "Peduncle of flocculus L",
+        "Peduncle of flocculus R",
+        "Posterior quadrangular lobule L",
+        "Posterior quadrangular lobule R",
+        "Pyramis of vermis",
+        "Superior cerebellar peduncle L",
+        "Superior cerebellar peduncle R",
+        "Superior semilunar lobule L",
+        "Superior semilunar lobule R",
+        "Tonsil of cerebellum L",
+        "Tonsil of cerebellum R",
+        "Tuber of vermis",
+        "Uvula of vermis",
+        "Wing of central lobule L",
+        "Wing of central lobule R"
+      ]
+    },
+    "brainstem": {
+      "label": "Brainstem",
+      "nodes": [
+        "OliveL",
+        "PyramidofmedullaoblongataL",
+        "OliveR",
+        "PyramidofmedullaoblongataR",
+        "AnteriorcochlearnucleusL",
+        "AnteriorcochlearnucleusR",
+        "InferiorsalivatorynucleusL",
+        "InferiorsalivatorynucleusR",
+        "NucleusambiguusL",
+        "NucleusambiguusR",
+        "NucleusofhypoglossalnerveL",
+        "NucleusofhypoglossalnerveR",
+        "NucleusofsolitarytractL",
+        "NucleusofsolitarytractR",
+        "PosteriorcochlearnucleusL",
+        "PosteriorcochlearnucleusR",
+        "PosteriornucleusofvagusnerveL",
+        "PosteriornucleusofvagusnerveR",
+        "BaseofpeduncleL",
+        "BaseofpeduncleR",
+        "NucleusoftrochlearnerveL",
+        "NucleusoftrochlearnerveR",
+        "AccessorynucleusofoculomotornerveL",
+        "AccessorynucleusofoculomotornerveR",
+        "NucleusofoculomotornerveL",
+        "NucleusofoculomotornerveR",
+        "RednucleusL",
+        "RednucleusR",
+        "InterpeduncularfossaL",
+        "InterpeduncularfossaR",
+        "MidbrainL",
+        "MidbrainR",
+        "InferiorcolliculusL",
+        "InferiorcolliculusR",
+        "SuperiorcolliculusL",
+        "SuperiorcolliculusR",
+        "PonsL",
+        "MotornucleusoffacialnerveL",
+        "MotornucleusoffacialnerveR",
+        "NucleusofabducensnerveL",
+        "NucleusofabducensnerveR",
+        "SuperiorsalivatorynucleusL",
+        "SuperiorsalivatorynucleusR",
+        "VestibularnucleiL",
+        "VestibularnucleiR",
+        "MedullaoblongataL",
+        "MedullaoblongataR",
+        "PonsR"
+      ],
+      "nodesRaw": [
+        "Olive L",
+        "Pyramid of medulla oblongata L",
+        "Olive R",
+        "Pyramid of medulla oblongata R",
+        "Anterior cochlear nucleus L",
+        "Anterior cochlear nucleus R",
+        "Inferior salivatory nucleus L",
+        "Inferior salivatory nucleus R",
+        "Nucleus ambiguus L",
+        "Nucleus ambiguus R",
+        "Nucleus of hypoglossal nerve L",
+        "Nucleus of hypoglossal nerve R",
+        "Nucleus of solitary tract L",
+        "Nucleus of solitary tract R",
+        "Posterior cochlear nucleus L",
+        "Posterior cochlear nucleus R",
+        "Posterior nucleus of vagus nerve L",
+        "Posterior nucleus of vagus nerve R",
+        "Base of peduncle L",
+        "Base of peduncle R",
+        "Nucleus of trochlear nerve L",
+        "Nucleus of trochlear nerve R",
+        "Accessory nucleus of oculomotor nerve L",
+        "Accessory nucleus of oculomotor nerve R",
+        "Nucleus of oculomotor nerve L",
+        "Nucleus of oculomotor nerve R",
+        "Red nucleus L",
+        "Red nucleus R",
+        "Interpeduncular fossa L",
+        "Interpeduncular fossa R",
+        "Midbrain L",
+        "Midbrain R",
+        "Inferior colliculus L",
+        "Inferior colliculus R",
+        "Superior colliculus L",
+        "Superior colliculus R",
+        "Pons L",
+        "Motor nucleus of facial nerve L",
+        "Motor nucleus of facial nerve R",
+        "Nucleus of abducens nerve L",
+        "Nucleus of abducens nerve R",
+        "Superior salivatory nucleus L",
+        "Superior salivatory nucleus R",
+        "Vestibular nuclei L",
+        "Vestibular nuclei R",
+        "Medulla oblongata L",
+        "Medulla oblongata R",
+        "Pons R"
+      ],
+      "subregions": {
+        "medulla": [
+          "OliveL",
+          "PyramidofmedullaoblongataL",
+          "OliveR",
+          "PyramidofmedullaoblongataR",
+          "AnteriorcochlearnucleusL",
+          "AnteriorcochlearnucleusR",
+          "InferiorsalivatorynucleusL",
+          "InferiorsalivatorynucleusR",
+          "NucleusambiguusL",
+          "NucleusambiguusR",
+          "NucleusofhypoglossalnerveL",
+          "NucleusofhypoglossalnerveR",
+          "NucleusofsolitarytractL",
+          "NucleusofsolitarytractR",
+          "PosteriorcochlearnucleusL",
+          "PosteriorcochlearnucleusR",
+          "PosteriornucleusofvagusnerveL",
+          "PosteriornucleusofvagusnerveR",
+          "MedullaoblongataL",
+          "MedullaoblongataR"
+        ],
+        "midbrain": [
+          "BaseofpeduncleL",
+          "BaseofpeduncleR",
+          "NucleusoftrochlearnerveL",
+          "NucleusoftrochlearnerveR",
+          "AccessorynucleusofoculomotornerveL",
+          "AccessorynucleusofoculomotornerveR",
+          "NucleusofoculomotornerveL",
+          "NucleusofoculomotornerveR",
+          "RednucleusL",
+          "RednucleusR",
+          "InterpeduncularfossaL",
+          "InterpeduncularfossaR",
+          "MidbrainL",
+          "MidbrainR",
+          "InferiorcolliculusL",
+          "InferiorcolliculusR",
+          "SuperiorcolliculusL",
+          "SuperiorcolliculusR"
+        ],
+        "pons": [
+          "PonsL",
+          "MotornucleusoffacialnerveL",
+          "MotornucleusoffacialnerveR",
+          "NucleusofabducensnerveL",
+          "NucleusofabducensnerveR",
+          "SuperiorsalivatorynucleusL",
+          "SuperiorsalivatorynucleusR",
+          "VestibularnucleiL",
+          "VestibularnucleiR",
+          "PonsR"
+        ]
+      }
+    },
+    "corpus_callosum": {
+      "label": "Corpus callosum and commissures",
+      "nodes": [
+        "Posteriorcommissure",
+        "Anteriorcommissure",
+        "Corpuscallosum",
+        "Hippocampalcommissure"
+      ],
+      "nodesRaw": [
+        "Posterior commissure",
+        "Anterior commissure",
+        "Corpus callosum",
+        "Hippocampal commissure"
+      ]
+    },
+    "thalamus": {
+      "label": "Thalamus and epithalamus",
+      "nodes": [
+        "Habenula",
+        "LateralgeniculatebodyL",
+        "LateralgeniculatebodyR",
+        "MedialgeniculatebodyL",
+        "MedialgeniculatebodyR",
+        "ThalamusL",
+        "ThalamusR",
+        "StriamedullaristhalamiL",
+        "StriamedullaristhalamiR"
+      ],
+      "nodesRaw": [
+        "Habenula",
+        "Lateral geniculate body L",
+        "Lateral geniculate body R",
+        "Medial geniculate body L",
+        "Medial geniculate body R",
+        "Thalamus L",
+        "Thalamus R",
+        "Stria medullaris thalami L",
+        "Stria medullaris thalami R"
+      ]
+    },
+    "hypothalamus": {
+      "label": "Hypothalamus",
+      "nodes": [
+        "Hypothalamus",
+        "MamillarybodyL",
+        "MamillarybodyR"
+      ],
+      "nodesRaw": [
+        "Hypothalamus",
+        "Mamillary body L",
+        "Mamillary body R"
+      ]
+    },
+    "hippocampus": {
+      "label": "Hippocampus and fornix",
+      "nodes": [
+        "HippocampusL",
+        "HippocampusR",
+        "FornixL",
+        "FornixR"
+      ],
+      "nodesRaw": [
+        "Hippocampus L",
+        "Hippocampus R",
+        "Fornix L",
+        "Fornix R"
+      ]
+    },
+    "amygdala": {
+      "label": "Amygdala",
+      "nodes": [
+        "AmygdaloidbodyL",
+        "AmygdaloidbodyR",
+        "StriaterminalisL",
+        "StriaterminalisR"
+      ],
+      "nodesRaw": [
+        "Amygdaloid body L",
+        "Amygdaloid body R",
+        "Stria terminalis L",
+        "Stria terminalis R"
+      ]
+    },
+    "basal_ganglia": {
+      "label": "Basal ganglia",
+      "nodes": [
+        "CaudatenucleusL",
+        "CaudatenucleusR",
+        "PutamenL",
+        "PutamenR",
+        "GlobuspallidusL",
+        "GlobuspallidusR",
+        "LentiformnucleusL",
+        "LentiformnucleusR"
+      ],
+      "nodesRaw": [
+        "Caudate nucleus L",
+        "Caudate nucleus R",
+        "Putamen L",
+        "Putamen R",
+        "Globus pallidus L",
+        "Globus pallidus R",
+        "Lentiform nucleus L",
+        "Lentiform nucleus R"
+      ],
+      "subregions": {
+        "caudate": [
+          "CaudatenucleusL",
+          "CaudatenucleusR"
+        ],
+        "putamen": [
+          "PutamenL",
+          "PutamenR",
+          "LentiformnucleusL",
+          "LentiformnucleusR"
+        ],
+        "globus_pallidus": [
+          "GlobuspallidusL",
+          "GlobuspallidusR"
+        ]
+      }
+    },
+    "ventricles": {
+      "label": "Ventricles and choroid plexus",
+      "nodes": [
+        "Fourthventricle",
+        "Aqueductofmidbrain",
+        "Thirdventricle",
+        "LateralventricleL",
+        "LateralventricleR",
+        "Septumpellucidum",
+        "ChoroidplexusL",
+        "ChoroidplexusR"
+      ],
+      "nodesRaw": [
+        "Fourth ventricle",
+        "Aqueduct of midbrain",
+        "Third ventricle",
+        "Lateral ventricle L",
+        "Lateral ventricle R",
+        "Septum pellucidum",
+        "Choroid plexus L",
+        "Choroid plexus R"
+      ]
+    },
+    "other": {
+      "label": "Limbic cortex and other structures",
+      "nodes": [
+        "OpticchiasmL",
+        "OpticchiasmR",
+        "OptictractL",
+        "OptictractR",
+        "Septalnuclei",
+        "CingulategyrusPosteroventralpartL",
+        "CingulategyrusPosteroventralpartR",
+        "CingulategyrusandsulcusMiddleanteriorpartL",
+        "CingulategyrusandsulcusMiddleanteriorpartR",
+        "CingulategyrusandsulcusMiddleposteriorpartL",
+        "CingulategyrusandsulcusMiddleposteriorpartR",
+        "CingulategyrusandsulcusPosteriordorsalpartL",
+        "CingulategyrusandsulcusPosteriordorsalpartR",
+        "CingulatesulcusMarginalpartL",
+        "CingulatesulcusMarginalpartR"
+      ],
+      "nodesRaw": [
+        "Optic chiasm L",
+        "Optic chiasm R",
+        "Optic tract L",
+        "Optic tract R",
+        "Septal nuclei",
+        "Cingulate gyrus (Posteroventral part*) L",
+        "Cingulate gyrus (Posteroventral part*) R",
+        "Cingulate gyrus and sulcus (Middle anterior part) L",
+        "Cingulate gyrus and sulcus (Middle anterior part) R",
+        "Cingulate gyrus and sulcus (Middle posterior part) L",
+        "Cingulate gyrus and sulcus (Middle posterior part) R",
+        "Cingulate gyrus and sulcus (Posterior dorsal part) L",
+        "Cingulate gyrus and sulcus (Posterior dorsal part) R",
+        "Cingulate sulcus (Marginal part*) L",
+        "Cingulate sulcus (Marginal part*) R"
+      ],
+      "subregions": {
+        "visual_pathway": [
+          "OpticchiasmL",
+          "OpticchiasmR",
+          "OptictractL",
+          "OptictractR"
+        ],
+        "septal": [
+          "Septalnuclei"
+        ],
+        "cingulate": [
+          "CingulategyrusPosteroventralpartL",
+          "CingulategyrusPosteroventralpartR",
+          "CingulategyrusandsulcusMiddleanteriorpartL",
+          "CingulategyrusandsulcusMiddleanteriorpartR",
+          "CingulategyrusandsulcusMiddleposteriorpartL",
+          "CingulategyrusandsulcusMiddleposteriorpartR",
+          "CingulategyrusandsulcusPosteriordorsalpartL",
+          "CingulategyrusandsulcusPosteriordorsalpartR",
+          "CingulatesulcusMarginalpartL",
+          "CingulatesulcusMarginalpartR"
+        ]
+      }
+    }
+  },
+  "excluded": {
+    "spinalCord": [
+      {
+        "name": "Spinal dura",
+        "key": "Spinaldura"
+      },
+      {
+        "name": "Central canal",
+        "key": "Centralcanal"
+      },
+      {
+        "name": "Central canal'",
+        "key": "Centralcanal"
+      },
+      {
+        "name": "Anterior horn of spinal cord",
+        "key": "Anteriorhornofspinalcord"
+      },
+      {
+        "name": "Nucleus of accessory nerve L",
+        "key": "NucleusofaccessorynerveL"
+      },
+      {
+        "name": "Nucleus of accessory nerve R",
+        "key": "NucleusofaccessorynerveR"
+      },
+      {
+        "name": "Intermediolateral nucleus",
+        "key": "Intermediolateralnucleus"
+      },
+      {
+        "name": "Intermediomedial nucleus",
+        "key": "Intermediomedialnucleus"
+      },
+      {
+        "name": "Lateral intermediate substance",
+        "key": "Lateralintermediatesubstance"
+      },
+      {
+        "name": "Nucleus proprius",
+        "key": "Nucleusproprius"
+      },
+      {
+        "name": "Posterior horn of spinal cord",
+        "key": "Posteriorhornofspinalcord"
+      },
+      {
+        "name": "Spinal reticular process",
+        "key": "Spinalreticularprocess"
+      },
+      {
+        "name": "Anterior corticospinal tract",
+        "key": "Anteriorcorticospinaltract"
+      },
+      {
+        "name": "Anterior fasciculus proprius",
+        "key": "Anteriorfasciculusproprius"
+      },
+      {
+        "name": "Lateral vestibulospinal tract",
+        "key": "Lateralvestibulospinaltract"
+      },
+      {
+        "name": "Medial reticulospinal tract",
+        "key": "Medialreticulospinaltract"
+      },
+      {
+        "name": "Medial vestibulospinal tract",
+        "key": "Medialvestibulospinaltract"
+      },
+      {
+        "name": "Tectospinal tract",
+        "key": "Tectospinaltract"
+      },
+      {
+        "name": "Anterior spinothalamic tract",
+        "key": "Anteriorspinothalamictract"
+      },
+      {
+        "name": "Lateral spinothalamic tract",
+        "key": "Lateralspinothalamictract"
+      },
+      {
+        "name": "Spinotectal tract",
+        "key": "Spinotectaltract"
+      },
+      {
+        "name": "Anterior spinocerebellar tract",
+        "key": "Anteriorspinocerebellartract"
+      },
+      {
+        "name": "Lateral corticospinal tract",
+        "key": "Lateralcorticospinaltract"
+      },
+      {
+        "name": "Lateral fasciculus proprius",
+        "key": "Lateralfasciculusproprius"
+      },
+      {
+        "name": "Lateral reticulospinal tract",
+        "key": "Lateralreticulospinaltract"
+      },
+      {
+        "name": "Posterior spinocerebellar tract",
+        "key": "Posteriorspinocerebellartract"
+      },
+      {
+        "name": "Rubrospinal tract",
+        "key": "Rubrospinaltract"
+      },
+      {
+        "name": "Cuneate fasciculus",
+        "key": "Cuneatefasciculus"
+      },
+      {
+        "name": "Gracile fasciculus",
+        "key": "Gracilefasciculus"
+      },
+      {
+        "name": "Posterior fasciculus proprius",
+        "key": "Posteriorfasciculusproprius"
+      },
+      {
+        "name": "Posterolateral tract",
+        "key": "Posterolateraltract"
+      },
+      {
+        "name": "White matter of spinal cord",
+        "key": "Whitematterofspinalcord"
+      },
+      {
+        "name": "Cauda equina",
+        "key": "Caudaequina"
+      }
+    ],
+    "cranialNerves": [
+      {
+        "name": "Abducens nerve (VI) L",
+        "key": "AbducensnerveVIL"
+      },
+      {
+        "name": "Abducens nerve (VI) R",
+        "key": "AbducensnerveVIR"
+      },
+      {
+        "name": "Chorda tympani L",
+        "key": "ChordatympaniL"
+      },
+      {
+        "name": "Chorda tympani R",
+        "key": "ChordatympaniR"
+      },
+      {
+        "name": "Glossopharyngeal nerve (IX) L",
+        "key": "GlossopharyngealnerveIXL"
+      },
+      {
+        "name": "Glossopharyngeal nerve (IX) R",
+        "key": "GlossopharyngealnerveIXR"
+      },
+      {
+        "name": "Hypoglossal nerve (XII) L",
+        "key": "HypoglossalnerveXIIL"
+      },
+      {
+        "name": "Hypoglossal nerve (XII) R",
+        "key": "HypoglossalnerveXIIR"
+      },
+      {
+        "name": "Oculomotor nerve (III) L",
+        "key": "OculomotornerveIIIL"
+      },
+      {
+        "name": "Oculomotor nerve (III) R",
+        "key": "OculomotornerveIIIR"
+      },
+      {
+        "name": "Olfactory nerve (I) L",
+        "key": "OlfactorynerveIL"
+      },
+      {
+        "name": "Olfactory nerve (I) R",
+        "key": "OlfactorynerveIR"
+      },
+      {
+        "name": "Optic nerve (II) L",
+        "key": "OpticnerveIIL"
+      },
+      {
+        "name": "Optic nerve (II) R",
+        "key": "OpticnerveIIR"
+      },
+      {
+        "name": "Meningeal branch of maxillary nerve L",
+        "key": "MeningealbranchofmaxillarynerveL"
+      },
+      {
+        "name": "Motor root of trigeminal nerve L",
+        "key": "MotorrootoftrigeminalnerveL"
+      },
+      {
+        "name": "Ophthalmic nerve L",
+        "key": "OphthalmicnerveL"
+      },
+      {
+        "name": "Sensory root of trigeminal nerve L",
+        "key": "SensoryrootoftrigeminalnerveL"
+      },
+      {
+        "name": "Meningeal branch of maxillary nerve R",
+        "key": "MeningealbranchofmaxillarynerveR"
+      },
+      {
+        "name": "Motor root of trigeminal nerve R",
+        "key": "MotorrootoftrigeminalnerveR"
+      },
+      {
+        "name": "Ophthalmic nerve R",
+        "key": "OphthalmicnerveR"
+      },
+      {
+        "name": "Sensory root of trigeminal nerve R",
+        "key": "SensoryrootoftrigeminalnerveR"
+      },
+      {
+        "name": "Buccal nerve L",
+        "key": "BuccalnerveL"
+      },
+      {
+        "name": "Buccal nerve R",
+        "key": "BuccalnerveR"
+      },
+      {
+        "name": "Mental nerve L",
+        "key": "MentalnerveL"
+      },
+      {
+        "name": "Nerve to mylohyoid muscle L",
+        "key": "NervetomylohyoidmuscleL"
+      },
+      {
+        "name": "Lingual nerve L",
+        "key": "LingualnerveL"
+      },
+      {
+        "name": "Mental nerve R",
+        "key": "MentalnerveR"
+      },
+      {
+        "name": "Nerve to mylohyoid muscle R",
+        "key": "NervetomylohyoidmuscleR"
+      },
+      {
+        "name": "Lingual nerve R",
+        "key": "LingualnerveR"
+      },
+      {
+        "name": "Trochlear nerve (IV) L",
+        "key": "TrochlearnerveIVL"
+      },
+      {
+        "name": "Trochlear nerve (IV) R",
+        "key": "TrochlearnerveIVR"
+      },
+      {
+        "name": "Vagus nerve (X) L",
+        "key": "VagusnerveXL"
+      },
+      {
+        "name": "Vagus nerve (X) R",
+        "key": "VagusnerveXR"
+      },
+      {
+        "name": "Accessory nerve (XI) L",
+        "key": "AccessorynerveXIL"
+      },
+      {
+        "name": "Accessory nerve (XI) R",
+        "key": "AccessorynerveXIR"
+      },
+      {
+        "name": "Facial nerve (VII) L",
+        "key": "FacialnerveVIIL"
+      },
+      {
+        "name": "Facial nerve (VII) R",
+        "key": "FacialnerveVIIR"
+      },
+      {
+        "name": "Maxillary nerve L",
+        "key": "MaxillarynerveL"
+      },
+      {
+        "name": "Maxillary nerve R",
+        "key": "MaxillarynerveR"
+      },
+      {
+        "name": "Trigeminal nerve (V) L",
+        "key": "TrigeminalnerveVL"
+      },
+      {
+        "name": "Trigeminal nerve (V) R",
+        "key": "TrigeminalnerveVR"
+      },
+      {
+        "name": "Anterior division of mandibular nerve L",
+        "key": "AnteriordivisionofmandibularnerveL"
+      },
+      {
+        "name": "Anterior division of mandibular nerve R",
+        "key": "AnteriordivisionofmandibularnerveR"
+      },
+      {
+        "name": "Inferior alveolar nerve L",
+        "key": "InferioralveolarnerveL"
+      },
+      {
+        "name": "Inferior alveolar nerve R",
+        "key": "InferioralveolarnerveR"
+      },
+      {
+        "name": "Posterior division of mandibular nerve L",
+        "key": "PosteriordivisionofmandibularnerveL"
+      },
+      {
+        "name": "Posterior division of mandibular nerve R",
+        "key": "PosteriordivisionofmandibularnerveR"
+      },
+      {
+        "name": "Vestibulocochlear nerve (VIII) L",
+        "key": "VestibulocochlearnerveVIIIL"
+      },
+      {
+        "name": "Vestibulocochlear nerve (VIII) R",
+        "key": "VestibulocochlearnerveVIIIR"
+      }
+    ],
+    "peripheralNerves": [
+      {
+        "name": "Sympathetic nerves L",
+        "key": "SympatheticnervesL"
+      },
+      {
+        "name": "Sympathetic nerves R",
+        "key": "SympatheticnervesR"
+      },
+      {
+        "name": "Ganglia of sympathetic trunk L",
+        "key": "GangliaofsympathetictrunkL"
+      },
+      {
+        "name": "Ganglia of sympathetic trunk R",
+        "key": "GangliaofsympathetictrunkR"
+      },
+      {
+        "name": "Spinal ganglion L",
+        "key": "SpinalganglionL"
+      },
+      {
+        "name": "Spinal ganglion R",
+        "key": "SpinalganglionR"
+      },
+      {
+        "name": "Anterior root of spinal nerve L",
+        "key": "AnteriorrootofspinalnerveL"
+      },
+      {
+        "name": "Anterior root of spinal nerve R",
+        "key": "AnteriorrootofspinalnerveR"
+      },
+      {
+        "name": "Lateral pectoral nerve L",
+        "key": "LateralpectoralnerveL"
+      },
+      {
+        "name": "Lateral pectoral nerve R",
+        "key": "LateralpectoralnerveR"
+      },
+      {
+        "name": "Lateral antebrachial cutaneous nerve L",
+        "key": "LateralantebrachialcutaneousnerveL"
+      },
+      {
+        "name": "Lateral antebrachial cutaneous nerve R",
+        "key": "LateralantebrachialcutaneousnerveR"
+      },
+      {
+        "name": "Anterior branch of medial antebrachial cutaneous nerve L",
+        "key": "AnteriorbranchofmedialantebrachialcutaneousnerveL"
+      },
+      {
+        "name": "Posterior branch of medial antebrachial cutaneous nerve L",
+        "key": "PosteriorbranchofmedialantebrachialcutaneousnerveL"
+      },
+      {
+        "name": "Anterior branch of medial antebrachial cutaneous nerve R",
+        "key": "AnteriorbranchofmedialantebrachialcutaneousnerveR"
+      },
+      {
+        "name": "Posterior branch of medial antebrachial cutaneous nerve R",
+        "key": "PosteriorbranchofmedialantebrachialcutaneousnerveR"
+      },
+      {
+        "name": "Medial brachial cutaneous nerve L",
+        "key": "MedialbrachialcutaneousnerveL"
+      },
+      {
+        "name": "Medial brachial cutaneous nerve R",
+        "key": "MedialbrachialcutaneousnerveR"
+      },
+      {
+        "name": "Medial pectoral nerve L",
+        "key": "MedialpectoralnerveL"
+      },
+      {
+        "name": "Medial pectoral nerve R",
+        "key": "MedialpectoralnerveR"
+      },
+      {
+        "name": "Deep branch of ulnar nerve L",
+        "key": "DeepbranchofulnarnerveL"
+      },
+      {
+        "name": "Dorsal digital branches of ulnar nerve L",
+        "key": "DorsaldigitalbranchesofulnarnerveL"
+      },
+      {
+        "name": "Muscular branches of ulnar nerve L",
+        "key": "MuscularbranchesofulnarnerveL"
+      },
+      {
+        "name": "Palmar branch of ulnar nerve L",
+        "key": "PalmarbranchofulnarnerveL"
+      },
+      {
+        "name": "Proper palmar digital branches of ulnar nerve L",
+        "key": "ProperpalmardigitalbranchesofulnarnerveL"
+      },
+      {
+        "name": "Deep branch of ulnar nerve R",
+        "key": "DeepbranchofulnarnerveR"
+      },
+      {
+        "name": "Dorsal digital branches of ulnar nerve R",
+        "key": "DorsaldigitalbranchesofulnarnerveR"
+      },
+      {
+        "name": "Muscular branches of ulnar nerve R",
+        "key": "MuscularbranchesofulnarnerveR"
+      },
+      {
+        "name": "Palmar branch of ulnar nerve R",
+        "key": "PalmarbranchofulnarnerveR"
+      },
+      {
+        "name": "Proper palmar digital branches of ulnar nerve R",
+        "key": "ProperpalmardigitalbranchesofulnarnerveR"
+      },
+      {
+        "name": "Muscular branches of axillary nerve L",
+        "key": "MuscularbranchesofaxillarynerveL"
+      },
+      {
+        "name": "Superior lateral brachial cutaneous nerve L",
+        "key": "SuperiorlateralbrachialcutaneousnerveL"
+      },
+      {
+        "name": "Muscular branches of axillary nerve R",
+        "key": "MuscularbranchesofaxillarynerveR"
+      },
+      {
+        "name": "Superior lateral brachial cutaneous nerve R",
+        "key": "SuperiorlateralbrachialcutaneousnerveR"
+      },
+      {
+        "name": "Inferior subscapular nerve L",
+        "key": "InferiorsubscapularnerveL"
+      },
+      {
+        "name": "Inferior subscapular nerve R",
+        "key": "InferiorsubscapularnerveR"
+      },
+      {
+        "name": "Posterior interosseous nerve of forearm L",
+        "key": "PosteriorinterosseousnerveofforearmL"
+      },
+      {
+        "name": "Inferior lateral brachial cutaneous nerve L",
+        "key": "InferiorlateralbrachialcutaneousnerveL"
+      },
+      {
+        "name": "Muscular branches of radial nerve L",
+        "key": "MuscularbranchesofradialnerveL"
+      },
+      {
+        "name": "Posterior antebrachial cutaneous nerve L",
+        "key": "PosteriorantebrachialcutaneousnerveL"
+      },
+      {
+        "name": "Dorsal digital branches of radial nerve L",
+        "key": "DorsaldigitalbranchesofradialnerveL"
+      },
+      {
+        "name": "Posterior interosseous nerve of forearm R",
+        "key": "PosteriorinterosseousnerveofforearmR"
+      },
+      {
+        "name": "Inferior lateral brachial cutaneous nerve R",
+        "key": "InferiorlateralbrachialcutaneousnerveR"
+      },
+      {
+        "name": "Muscular branches of radial nerve R",
+        "key": "MuscularbranchesofradialnerveR"
+      },
+      {
+        "name": "Posterior antebrachial cutaneous nerve R",
+        "key": "PosteriorantebrachialcutaneousnerveR"
+      },
+      {
+        "name": "Dorsal digital branches of radial nerve R",
+        "key": "DorsaldigitalbranchesofradialnerveR"
+      },
+      {
+        "name": "Superior subscapular nerve L",
+        "key": "SuperiorsubscapularnerveL"
+      },
+      {
+        "name": "Thoracodorsal nerve R",
+        "key": "ThoracodorsalnerveR"
+      },
+      {
+        "name": "Thoracodorsal nerve L",
+        "key": "ThoracodorsalnerveL"
+      },
+      {
+        "name": "Anterior interosseous nerve of forearm L",
+        "key": "AnteriorinterosseousnerveofforearmL"
+      },
+      {
+        "name": "Proper palmar digital branches of median nerve L",
+        "key": "ProperpalmardigitalbranchesofmediannerveL"
+      },
+      {
+        "name": "Muscular branches of median nerve L",
+        "key": "MuscularbranchesofmediannerveL"
+      },
+      {
+        "name": "Palmar branch of median nerve L",
+        "key": "PalmarbranchofmediannerveL"
+      },
+      {
+        "name": "Anterior interosseous nerve of forearm R",
+        "key": "AnteriorinterosseousnerveofforearmR"
+      },
+      {
+        "name": "Proper palmar digital branches of median nerve R",
+        "key": "ProperpalmardigitalbranchesofmediannerveR"
+      },
+      {
+        "name": "Muscular branches of median nerve R",
+        "key": "MuscularbranchesofmediannerveR"
+      },
+      {
+        "name": "Palmar branch of median nerve R",
+        "key": "PalmarbranchofmediannerveR"
+      },
+      {
+        "name": "Posterior cord of brachial plexus L",
+        "key": "PosteriorcordofbrachialplexusL"
+      },
+      {
+        "name": "Posterior cord of brachial plexus R",
+        "key": "PosteriorcordofbrachialplexusR"
+      },
+      {
+        "name": "Dorsal scapular nerve L",
+        "key": "DorsalscapularnerveL"
+      },
+      {
+        "name": "Dorsal scapular nerve R",
+        "key": "DorsalscapularnerveR"
+      },
+      {
+        "name": "Long thoracic nerve L",
+        "key": "LongthoracicnerveL"
+      },
+      {
+        "name": "Long thoracic nerve R",
+        "key": "LongthoracicnerveR"
+      },
+      {
+        "name": "Subclavian nerve L",
+        "key": "SubclaviannerveL"
+      },
+      {
+        "name": "Subclavian nerve R",
+        "key": "SubclaviannerveR"
+      },
+      {
+        "name": "Suprascapular nerve L",
+        "key": "SuprascapularnerveL"
+      },
+      {
+        "name": "Suprascapular nerve R",
+        "key": "SuprascapularnerveR"
+      },
+      {
+        "name": "Anterior division of inferior trunk of brachial plexus L",
+        "key": "AnteriordivisionofinferiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Posterior division of inferior trunk of brachial plexus L",
+        "key": "PosteriordivisionofinferiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Anterior division of inferior trunk of brachial plexus R",
+        "key": "AnteriordivisionofinferiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Posterior division of inferior trunk of brachial plexus R",
+        "key": "PosteriordivisionofinferiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Anterior division of middle trunk of brachial plexus L",
+        "key": "AnteriordivisionofmiddletrunkofbrachialplexusL"
+      },
+      {
+        "name": "Posterior division of middle trunk of brachial plexus L",
+        "key": "PosteriordivisionofmiddletrunkofbrachialplexusL"
+      },
+      {
+        "name": "Anterior division of middle trunk of brachial plexus R",
+        "key": "AnteriordivisionofmiddletrunkofbrachialplexusR"
+      },
+      {
+        "name": "Posterior division of middle trunk of brachial plexus R",
+        "key": "PosteriordivisionofmiddletrunkofbrachialplexusR"
+      },
+      {
+        "name": "Roots of brachial plexus L",
+        "key": "RootsofbrachialplexusL"
+      },
+      {
+        "name": "Roots of brachial plexus R",
+        "key": "RootsofbrachialplexusR"
+      },
+      {
+        "name": "Anterior division of superior trunk of brachial plexus L",
+        "key": "AnteriordivisionofsuperiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Posterior division of superior trunk of brachial plexus L",
+        "key": "PosteriordivisionofsuperiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Anterior division of superior trunk of brachial plexus R",
+        "key": "AnteriordivisionofsuperiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Posterior division of superior trunk of brachial plexus R",
+        "key": "PosteriordivisionofsuperiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Ilio-inguinal nerve L",
+        "key": "Ilio-inguinalnerveL"
+      },
+      {
+        "name": "Ilio-inguinal nerve R",
+        "key": "Ilio-inguinalnerveR"
+      },
+      {
+        "name": "Iliohypogastric nerve L",
+        "key": "IliohypogastricnerveL"
+      },
+      {
+        "name": "Iliohypogastric nerve R",
+        "key": "IliohypogastricnerveR"
+      },
+      {
+        "name": "Femoral branch of genitofemoral nerve L",
+        "key": "FemoralbranchofgenitofemoralnerveL"
+      },
+      {
+        "name": "Genital branch of genitofemoral nerve L",
+        "key": "GenitalbranchofgenitofemoralnerveL"
+      },
+      {
+        "name": "Femoral branch of genitofemoral nerve R",
+        "key": "FemoralbranchofgenitofemoralnerveR"
+      },
+      {
+        "name": "Genital branch of genitofemoral nerve R",
+        "key": "GenitalbranchofgenitofemoralnerveR"
+      },
+      {
+        "name": "Anterior branch of obturator nerve L",
+        "key": "AnteriorbranchofobturatornerveL"
+      },
+      {
+        "name": "Posterior branch of obturator nerve L",
+        "key": "PosteriorbranchofobturatornerveL"
+      },
+      {
+        "name": "Anterior branch of obturator nerve R",
+        "key": "AnteriorbranchofobturatornerveR"
+      },
+      {
+        "name": "Posterior branch of obturator nerve R",
+        "key": "PosteriorbranchofobturatornerveR"
+      },
+      {
+        "name": "Anterior cutaneous branches of femoral nerve L",
+        "key": "AnteriorcutaneousbranchesoffemoralnerveL"
+      },
+      {
+        "name": "Infrapatellar branch of saphenous nerve L",
+        "key": "InfrapatellarbranchofsaphenousnerveL"
+      },
+      {
+        "name": "Medial crural cutaneous branches of saphenous nerve L",
+        "key": "MedialcruralcutaneousbranchesofsaphenousnerveL"
+      },
+      {
+        "name": "Anterior cutaneous branches of femoral nerve R",
+        "key": "AnteriorcutaneousbranchesoffemoralnerveR"
+      },
+      {
+        "name": "Infrapatellar branch of saphenous nerve R",
+        "key": "InfrapatellarbranchofsaphenousnerveR"
+      },
+      {
+        "name": "Medial crural cutaneous branches of saphenous nerve R",
+        "key": "MedialcruralcutaneousbranchesofsaphenousnerveR"
+      },
+      {
+        "name": "Lateral femoral cutaneous nerve L",
+        "key": "LateralfemoralcutaneousnerveL"
+      },
+      {
+        "name": "Lateral femoral cutaneous nerve R",
+        "key": "LateralfemoralcutaneousnerveR"
+      },
+      {
+        "name": "Superior subscapular nerve R",
+        "key": "SuperiorsubscapularnerveR"
+      },
+      {
+        "name": "Anterior root of posterior femoral cutaneous nerve L",
+        "key": "AnteriorrootofposteriorfemoralcutaneousnerveL"
+      },
+      {
+        "name": "Anterior root of posterior femoral cutaneous nerve R",
+        "key": "AnteriorrootofposteriorfemoralcutaneousnerveR"
+      },
+      {
+        "name": "Nerve to piriformis muscle L",
+        "key": "NervetopiriformismuscleL"
+      },
+      {
+        "name": "Nerve to piriformis muscle R",
+        "key": "NervetopiriformismuscleR"
+      },
+      {
+        "name": "Nerve to quadratus femoris muscle L",
+        "key": "NervetoquadratusfemorismuscleL"
+      },
+      {
+        "name": "Nerve to quadratus femoris muscle R",
+        "key": "NervetoquadratusfemorismuscleR"
+      },
+      {
+        "name": "Posterior femoral cutaneous nerve R",
+        "key": "PosteriorfemoralcutaneousnerveR"
+      },
+      {
+        "name": "Posterior root of posterior femoral cutaneous nerve L",
+        "key": "PosteriorrootofposteriorfemoralcutaneousnerveL"
+      },
+      {
+        "name": "Posterior root of posterior femoral cutaneous nerve R",
+        "key": "PosteriorrootofposteriorfemoralcutaneousnerveR"
+      },
+      {
+        "name": "Posterior femoral cutaneous nerve L",
+        "key": "PosteriorfemoralcutaneousnerveL"
+      },
+      {
+        "name": "Dorsal digital branches of deep fibular nerve L",
+        "key": "DorsaldigitalbranchesofdeepfibularnerveL"
+      },
+      {
+        "name": "Muscular branches of deep fibular nerve L",
+        "key": "MuscularbranchesofdeepfibularnerveL"
+      },
+      {
+        "name": "Dorsal digital branches of superficial fibular nerve L",
+        "key": "DorsaldigitalbranchesofsuperficialfibularnerveL"
+      },
+      {
+        "name": "Intermediate dorsal cutaneous nerve of foot L",
+        "key": "IntermediatedorsalcutaneousnerveoffootL"
+      },
+      {
+        "name": "Medial dorsal cutaneous nerve of foot L",
+        "key": "MedialdorsalcutaneousnerveoffootL"
+      },
+      {
+        "name": "Sural communicating branch of common fibular nerve L",
+        "key": "SuralcommunicatingbranchofcommonfibularnerveL"
+      },
+      {
+        "name": "Proper plantar digital branches of lateral plantar nerve L",
+        "key": "ProperplantardigitalbranchesoflateralplantarnerveL"
+      },
+      {
+        "name": "Proper plantar digital branches of medial plantar nerve L",
+        "key": "ProperplantardigitalbranchesofmedialplantarnerveL"
+      },
+      {
+        "name": "Sural nerve L",
+        "key": "SuralnerveL"
+      },
+      {
+        "name": "Dorsal digital branches of deep fibular nerve R",
+        "key": "DorsaldigitalbranchesofdeepfibularnerveR"
+      },
+      {
+        "name": "Muscular branches of deep fibular nerve R",
+        "key": "MuscularbranchesofdeepfibularnerveR"
+      },
+      {
+        "name": "Dorsal digital branches of superficial fibular nerve R",
+        "key": "DorsaldigitalbranchesofsuperficialfibularnerveR"
+      },
+      {
+        "name": "Intermediate dorsal cutaneous nerve of foot R",
+        "key": "IntermediatedorsalcutaneousnerveoffootR"
+      },
+      {
+        "name": "Medial dorsal cutaneous nerve of foot R",
+        "key": "MedialdorsalcutaneousnerveoffootR"
+      },
+      {
+        "name": "Sural communicating branch of common fibular nerve R",
+        "key": "SuralcommunicatingbranchofcommonfibularnerveR"
+      },
+      {
+        "name": "Proper plantar digital branches of lateral plantar nerve R",
+        "key": "ProperplantardigitalbranchesoflateralplantarnerveR"
+      },
+      {
+        "name": "Proper plantar digital branches of medial plantar nerve R",
+        "key": "ProperplantardigitalbranchesofmedialplantarnerveR"
+      },
+      {
+        "name": "Sural nerve R",
+        "key": "SuralnerveR"
+      },
+      {
+        "name": "Pudendal nerve L",
+        "key": "PudendalnerveL"
+      },
+      {
+        "name": "Pudendal nerve R",
+        "key": "PudendalnerveR"
+      },
+      {
+        "name": "Superior gluteal nerve L",
+        "key": "SuperiorglutealnerveL"
+      },
+      {
+        "name": "Superior gluteal nerve R",
+        "key": "SuperiorglutealnerveR"
+      },
+      {
+        "name": "Posterior root of spinal nerve L",
+        "key": "PosteriorrootofspinalnerveL"
+      },
+      {
+        "name": "Posterior root of spinal nerve R",
+        "key": "PosteriorrootofspinalnerveR"
+      },
+      {
+        "name": "Intercostal nerves L",
+        "key": "IntercostalnervesL"
+      },
+      {
+        "name": "Intercostal nerves R",
+        "key": "IntercostalnervesR"
+      },
+      {
+        "name": "Sympathetic trunk L",
+        "key": "SympathetictrunkL"
+      },
+      {
+        "name": "Sympathetic trunk R",
+        "key": "SympathetictrunkR"
+      },
+      {
+        "name": "Musculocutaneous nerve L",
+        "key": "MusculocutaneousnerveL"
+      },
+      {
+        "name": "Musculocutaneous nerve R",
+        "key": "MusculocutaneousnerveR"
+      },
+      {
+        "name": "Medial antebrachial cutaneous nerve L",
+        "key": "MedialantebrachialcutaneousnerveL"
+      },
+      {
+        "name": "Medial antebrachial cutaneous nerve R",
+        "key": "MedialantebrachialcutaneousnerveR"
+      },
+      {
+        "name": "Dorsal branch of ulnar nerve L",
+        "key": "DorsalbranchofulnarnerveL"
+      },
+      {
+        "name": "Dorsal branch of ulnar nerve R",
+        "key": "DorsalbranchofulnarnerveR"
+      },
+      {
+        "name": "Common palmar digital branches of ulnar nerve L",
+        "key": "CommonpalmardigitalbranchesofulnarnerveL"
+      },
+      {
+        "name": "Common palmar digital branches of ulnar nerve R",
+        "key": "CommonpalmardigitalbranchesofulnarnerveR"
+      },
+      {
+        "name": "Superficial branch of ulnar nerve L",
+        "key": "SuperficialbranchofulnarnerveL"
+      },
+      {
+        "name": "Superficial branch of ulnar nerve R",
+        "key": "SuperficialbranchofulnarnerveR"
+      },
+      {
+        "name": "Ulnar nerve L",
+        "key": "UlnarnerveL"
+      },
+      {
+        "name": "Ulnar nerve R",
+        "key": "UlnarnerveR"
+      },
+      {
+        "name": "Axillary nerve L",
+        "key": "AxillarynerveL"
+      },
+      {
+        "name": "Axillary nerve R",
+        "key": "AxillarynerveR"
+      },
+      {
+        "name": "Deep branch of radial nerve L",
+        "key": "DeepbranchofradialnerveL"
+      },
+      {
+        "name": "Deep branch of radial nerve R",
+        "key": "DeepbranchofradialnerveR"
+      },
+      {
+        "name": "Superficial branch of radial nerve L",
+        "key": "SuperficialbranchofradialnerveL"
+      },
+      {
+        "name": "Superficial branch of radial nerve R",
+        "key": "SuperficialbranchofradialnerveR"
+      },
+      {
+        "name": "Radial nerve L",
+        "key": "RadialnerveL"
+      },
+      {
+        "name": "Radial nerve R",
+        "key": "RadialnerveR"
+      },
+      {
+        "name": "Common palmar digital branches of median nerve L",
+        "key": "CommonpalmardigitalbranchesofmediannerveL"
+      },
+      {
+        "name": "Common palmar digital branches of median nerve R",
+        "key": "CommonpalmardigitalbranchesofmediannerveR"
+      },
+      {
+        "name": "Median nerve L",
+        "key": "MediannerveL"
+      },
+      {
+        "name": "Median nerve R",
+        "key": "MediannerveR"
+      },
+      {
+        "name": "Inferior trunk of brachial plexus L",
+        "key": "InferiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Inferior trunk of brachial plexus R",
+        "key": "InferiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Middle trunk of brachial plexus L",
+        "key": "MiddletrunkofbrachialplexusL"
+      },
+      {
+        "name": "Middle trunk of brachial plexus R",
+        "key": "MiddletrunkofbrachialplexusR"
+      },
+      {
+        "name": "Superior trunk of brachial plexus L",
+        "key": "SuperiortrunkofbrachialplexusL"
+      },
+      {
+        "name": "Superior trunk of brachial plexus R",
+        "key": "SuperiortrunkofbrachialplexusR"
+      },
+      {
+        "name": "Genitofemoral nerve L",
+        "key": "GenitofemoralnerveL"
+      },
+      {
+        "name": "Genitofemoral nerve R",
+        "key": "GenitofemoralnerveR"
+      },
+      {
+        "name": "Obturator nerve L",
+        "key": "ObturatornerveL"
+      },
+      {
+        "name": "Obturator nerve R",
+        "key": "ObturatornerveR"
+      },
+      {
+        "name": "Saphenous nerve L",
+        "key": "SaphenousnerveL"
+      },
+      {
+        "name": "Saphenous nerve R",
+        "key": "SaphenousnerveR"
+      },
+      {
+        "name": "Femoral nerve L",
+        "key": "FemoralnerveL"
+      },
+      {
+        "name": "Femoral nerve R",
+        "key": "FemoralnerveR"
+      },
+      {
+        "name": "Deep fibular nerve L",
+        "key": "DeepfibularnerveL"
+      },
+      {
+        "name": "Deep fibular nerve R",
+        "key": "DeepfibularnerveR"
+      },
+      {
+        "name": "Superficial fibular nerve L",
+        "key": "SuperficialfibularnerveL"
+      },
+      {
+        "name": "Superficial fibular nerve R",
+        "key": "SuperficialfibularnerveR"
+      },
+      {
+        "name": "Common fibular nerve L",
+        "key": "CommonfibularnerveL"
+      },
+      {
+        "name": "Common fibular nerve R",
+        "key": "CommonfibularnerveR"
+      },
+      {
+        "name": "Common plantar digital branches of lateral plantar nerve L",
+        "key": "CommonplantardigitalbranchesoflateralplantarnerveL"
+      },
+      {
+        "name": "Common plantar digital branches of lateral plantar nerve R",
+        "key": "CommonplantardigitalbranchesoflateralplantarnerveR"
+      },
+      {
+        "name": "Lateral plantar nerve L",
+        "key": "LateralplantarnerveL"
+      },
+      {
+        "name": "Lateral plantar nerve R",
+        "key": "LateralplantarnerveR"
+      },
+      {
+        "name": "Common plantar digital branches of medial plantar nerve L",
+        "key": "CommonplantardigitalbranchesofmedialplantarnerveL"
+      },
+      {
+        "name": "Common plantar digital branches of medial plantar nerve",
+        "key": "Commonplantardigitalbranchesofmedialplantarnerve"
+      },
+      {
+        "name": "Medial plantar nerve L",
+        "key": "MedialplantarnerveL"
+      },
+      {
+        "name": "Medial plantar nerve R",
+        "key": "MedialplantarnerveR"
+      },
+      {
+        "name": "Medial sural cutaneous nerve L",
+        "key": "MedialsuralcutaneousnerveL"
+      },
+      {
+        "name": "Medial sural cutaneous nerve R",
+        "key": "MedialsuralcutaneousnerveR"
+      },
+      {
+        "name": "Tibial nerve L",
+        "key": "TibialnerveL"
+      },
+      {
+        "name": "Tibial nerve R",
+        "key": "TibialnerveR"
+      },
+      {
+        "name": "Sciatic nerve L",
+        "key": "SciaticnerveL"
+      },
+      {
+        "name": "Sciatic nerve R",
+        "key": "SciaticnerveR"
+      }
+    ],
+    "eye": [
+      {
+        "name": "Ampulla of lacrimal canaliculus L",
+        "key": "AmpullaoflacrimalcanaliculusL"
+      },
+      {
+        "name": "Ampulla of lacrimal canaliculus R",
+        "key": "AmpullaoflacrimalcanaliculusR"
+      },
+      {
+        "name": "Lacrimal gland L",
+        "key": "LacrimalglandL"
+      },
+      {
+        "name": "Lacrimal gland R",
+        "key": "LacrimalglandR"
+      },
+      {
+        "name": "Lacrimal sac L",
+        "key": "LacrimalsacL"
+      },
+      {
+        "name": "Lacrimal sac R",
+        "key": "LacrimalsacR"
+      },
+      {
+        "name": "Nasolacrimal duct L",
+        "key": "NasolacrimalductL"
+      },
+      {
+        "name": "Nasolacrimal duct R",
+        "key": "NasolacrimalductR"
+      },
+      {
+        "name": "Suspensory ligament of eyeball L",
+        "key": "SuspensoryligamentofeyeballL"
+      },
+      {
+        "name": "Suspensory ligament of eyeball R",
+        "key": "SuspensoryligamentofeyeballR"
+      },
+      {
+        "name": "Anterior chamber of eyeball L",
+        "key": "AnteriorchamberofeyeballL"
+      },
+      {
+        "name": "Zonular fibres L",
+        "key": "ZonularfibresL"
+      },
+      {
+        "name": "Anterior chamber of eyeball R",
+        "key": "AnteriorchamberofeyeballR"
+      },
+      {
+        "name": "Zonular fibres R",
+        "key": "ZonularfibresR"
+      },
+      {
+        "name": "Cornea L",
+        "key": "CorneaL"
+      },
+      {
+        "name": "Cornea R",
+        "key": "CorneaR"
+      },
+      {
+        "name": "Iris L",
+        "key": "IrisL"
+      },
+      {
+        "name": "Iris R",
+        "key": "IrisR"
+      },
+      {
+        "name": "Lens L",
+        "key": "LensL"
+      },
+      {
+        "name": "Lens R",
+        "key": "LensR"
+      },
+      {
+        "name": "Vitreous body L",
+        "key": "VitreousbodyL"
+      },
+      {
+        "name": "Vitreous body R",
+        "key": "VitreousbodyR"
+      },
+      {
+        "name": "Retina L",
+        "key": "RetinaL"
+      },
+      {
+        "name": "Retina R",
+        "key": "RetinaR"
+      },
+      {
+        "name": "Sclera L",
+        "key": "ScleraL"
+      },
+      {
+        "name": "Sclera R",
+        "key": "ScleraR"
+      },
+      {
+        "name": "Lacrimal canaliculus L",
+        "key": "LacrimalcanaliculusL"
+      },
+      {
+        "name": "Lacrimal canaliculus R",
+        "key": "LacrimalcanaliculusR"
+      },
+      {
+        "name": "Anterior segment of eyeball L",
+        "key": "AnteriorsegmentofeyeballL"
+      },
+      {
+        "name": "Anterior segment of eyeball R",
+        "key": "AnteriorsegmentofeyeballR"
+      },
+      {
+        "name": "Posterior segment of eyeball L",
+        "key": "PosteriorsegmentofeyeballL"
+      },
+      {
+        "name": "Posterior segment of eyeball R",
+        "key": "PosteriorsegmentofeyeballR"
+      }
+    ],
+    "auditoryTube": [
+      {
+        "name": "Auditory tube L",
+        "key": "AuditorytubeL"
+      },
+      {
+        "name": "Auditory tube R",
+        "key": "AuditorytubeR"
+      }
+    ],
+    "meninges": [
+      {
+        "name": "Falx cerebri",
+        "key": "Falxcerebri"
+      },
+      {
+        "name": "Tentorium cerebelli L",
+        "key": "TentoriumcerebelliL"
+      },
+      {
+        "name": "Tentorium cerebelli R",
+        "key": "TentoriumcerebelliR"
+      }
+    ]
+  },
+  "dropped": {
+    "whiteMatterOfTelencephalon": [
+      {
+        "name": "White matter of telencephalon R",
+        "key": "WhitematteroftelencephalonR"
+      },
+      {
+        "name": "White matter of telencephalon L",
+        "key": "WhitematteroftelencephalonL"
+      }
+    ],
+    "innerEar": [
+      {
+        "name": "Cochlear nerve L",
+        "key": "CochlearnerveL"
+      },
+      {
+        "name": "Vestibular nerve L",
+        "key": "VestibularnerveL"
+      },
+      {
+        "name": "Cochlear nerve",
+        "key": "Cochlearnerve"
+      },
+      {
+        "name": "Vestibular nerve R",
+        "key": "VestibularnerveR"
+      },
+      {
+        "name": "Vestibule L",
+        "key": "VestibuleL"
+      },
+      {
+        "name": "Vestibule R",
+        "key": "VestibuleR"
+      }
+    ]
+  },
+  "notes": [
+    "Keys are sanitize(name) = name.replace(/[^A-Za-z0-9_-]/g, ''); nodesRaw carries the original Z-Anatomy names, index-aligned with nodes.",
+    "Boundary structures assigned by convention: Central sulcus to frontal, Parieto-occipital sulcus to occipital, parahippocampal and fusiform gyri to temporal, paracentral gyrus and sulcus to frontal, Lat_Fis-ant rami to frontal, Lat_Fis-post to temporal.",
+    "Cingulate gyrus segments, septal nuclei and the optic chiasm and tract sit in 'other' (no dedicated region id was specified); see other.subregions.",
+    "Falx cerebri and tentorium cerebelli are meninges, not brain tissue: listed under excluded.meninges.",
+    "Vestibule, Cochlear nerve and Vestibular nerve are dropped as inner-ear (Dundee CC BY-NC-SA) or inner-ear-adjacent parts. Vestibular nuclei and cochlear nuclei (brainstem) are kept.",
+    "White matter of telencephalon (L and R) dropped: no upstream licence stated and not needed for the exploded view."
+  ],
+  "keyCollisions": [
+    {
+      "key": "Centralcanal",
+      "names": [
+        "Central canal",
+        "Central canal'"
+      ]
+    }
+  ]
+}
