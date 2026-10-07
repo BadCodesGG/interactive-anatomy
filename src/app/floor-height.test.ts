@@ -1,6 +1,7 @@
-import { BoxGeometry, Mesh, MeshBasicMaterial, Object3D } from "three";
+import { BoxGeometry, type Camera, Mesh, MeshBasicMaterial, Object3D, PerspectiveCamera, Vector3 } from "three";
 import { describe, expect, it } from "vitest";
-import { FloorHeight } from "./floor-height";
+import { ContactShadow } from "@/engine/explode/contact-shadow";
+import { FLOOR_LAYER, FloorHeight, showFloorLayer } from "./floor-height";
 
 /** A model of two boxes, one unit tall each, standing on y = 0 and y = 3. */
 function model() {
@@ -56,5 +57,36 @@ describe("FloorHeight", () => {
     const { root, parts } = model();
     for (const p of parts.values()) p.visible = false;
     expect(new FloorHeight().lowest(root, parts.values(), [0])).toBeNull();
+  });
+});
+
+describe("the floor's layer", () => {
+  it("is drawn by the stage camera and left out of the contact shadow's depth pass", () => {
+    const floor = new Mesh(new BoxGeometry(1, 1, 1), new MeshBasicMaterial());
+    floor.layers.set(FLOOR_LAYER);
+    const camera = new PerspectiveCamera();
+    const contact = new ContactShadow(1, new Vector3(), { opacity: 0.5, blur: 2, far: 0.5 });
+    try {
+      // The depth pass renders through the shadow's own camera.
+      const depthCamera = (contact as unknown as { camera: Camera }).camera;
+      const undo = showFloorLayer(camera);
+      expect(floor.layers.test(camera.layers)).toBe(true);
+      expect(floor.layers.test(depthCamera.layers)).toBe(false);
+      undo();
+      expect(floor.layers.test(camera.layers)).toBe(false);
+    } finally {
+      contact.dispose();
+    }
+  });
+
+  it("leaves the camera's layer on when something else had already enabled it", () => {
+    const camera = new PerspectiveCamera();
+    camera.layers.enable(FLOOR_LAYER);
+    showFloorLayer(camera)();
+    expect(camera.layers.isEnabled(FLOOR_LAYER)).toBe(true);
+  });
+
+  it("is not the default layer", () => {
+    expect(FLOOR_LAYER).not.toBe(0);
   });
 });

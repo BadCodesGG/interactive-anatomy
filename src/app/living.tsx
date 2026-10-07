@@ -5,12 +5,12 @@
  * own movement. Loaded only in the stage's lazy chunk.
  */
 import { useEffect, useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { useTheme, type ExplodeStore } from "@/engine/explode";
 import { groundHeight } from "@/engine/explode/ground";
 import { useStageScene } from "@/engine/explode/stage";
-import { FloorHeight } from "./floor-height";
+import { FLOOR_LAYER, FloorHeight, showFloorLayer } from "./floor-height";
 import { breathPhase, heartPulse, MOVING, movement, PartMotion } from "./motion";
 import { Sway } from "./sway";
 
@@ -110,6 +110,8 @@ export function StudioFloor({ store }: { store: ExplodeStore }) {
     material.uniforms.uAlpha.value.set(look.alpha[0], look.alpha[1]);
   }, [material, theme]);
   useEffect(() => () => material.dispose(), [material]);
+  const camera = useThree((s) => s.camera);
+  useEffect(() => showFloorLayer(camera), [camera]);
   useFrame(({ internal, invalidate }) => {
     if (setPremulFix(material, internal.priority > 0 ? 1 : 0)) invalidate();
     // Measured when the layout changes (the explode tween, the age looks, a filtered group), not every frame.
@@ -119,7 +121,7 @@ export function StudioFloor({ store }: { store: ExplodeStore }) {
     if (mesh.current && low !== null) mesh.current.position.y = groundHeight(low, r) - r * 0.0006;
   });
   return (
-    <mesh ref={mesh} rotation-x={-Math.PI / 2} position={[sphere.center.x, sphere.center.y - r, sphere.center.z]} renderOrder={-1} raycast={() => null} material={material}>
+    <mesh ref={mesh} layers={FLOOR_LAYER} rotation-x={-Math.PI / 2} position={[sphere.center.x, sphere.center.y - r, sphere.center.z]} renderOrder={-1} raycast={() => null} material={material}>
       <planeGeometry args={[r * 8, r * 8]} />
     </mesh>
   );
