@@ -28,14 +28,15 @@ export class FloorHeight {
 /**
  * The layer the floor is on. The stage camera draws it; the contact shadow's depth camera (layer 0 only)
  * does not. The floor follows the pose a frame apart from the ground, so while parts travel down it can sit
- * above that camera, and drawn into its pass it shades the whole contact plane. The lap road in
- * interactive-f1 is kept out of the same pass the same way.
+ * above that camera, and drawn into its pass it shades the whole contact plane.
  */
 export const FLOOR_LAYER = 1;
 
-/** Puts the floor on its own layer and lets the camera draw it; returns the undo for the camera. */
-export function showFloorLayer(floor: Object3D, camera: Object3D): () => void {
-  floor.layers.set(FLOOR_LAYER);
+/** Lets the camera draw the floor's layer; the undo puts the camera's layers back as they were. */
+export function showFloorLayer(camera: Object3D): () => void {
+  const had = camera.layers.isEnabled(FLOOR_LAYER);
   camera.layers.enable(FLOOR_LAYER);
-  return () => camera.layers.disable(FLOOR_LAYER);
+  return () => {
+    if (!had) camera.layers.disable(FLOOR_LAYER);
+  };
 }
