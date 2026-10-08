@@ -57,46 +57,49 @@ export default function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: themeScript() }} />
       </head>
       <body className="flex min-h-full flex-col">
-        <header className="border-b border-border py-2 short:py-1">
-          {/* Header, page and footer share one box: max-w-6xl with the page's own padding, so their content edges line up. */}
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 md:px-6">
-            <Link href="/" className="font-display text-xl font-semibold text-ink underline-offset-4 hover:text-accent hover:underline">
-              Anatomy, exploded
-            </Link>
-            <ThemeToggle />
-          </div>
-        </header>
-        <div className="flex-1">{children}</div>
-        <footer className="border-t border-border py-6 text-sm text-ink-tertiary">
-          <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 md:flex-row md:items-center md:justify-between md:px-6">
-            <p className="shrink-0">
-              Built by{" "}
-              <a href="https://badcodes.dev" className="text-ink-secondary underline-offset-4 hover:text-accent hover:underline">
-                badcodes.dev
-              </a>
-            </p>
-            {credits.length > 0 && (
-              <ul aria-label="Credits" className="flex flex-wrap gap-x-4 gap-y-2">
-                {credits.map((c) => (
-                  <li key={c.label}>
-                    {c.href ? (
-                      <a href={c.href} className="underline-offset-4 hover:text-accent hover:underline" rel="noreferrer">
-                        {c.label}
-                      </a>
-                    ) : (
-                      c.label
-                    )}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-          <div className="mx-auto mt-4 flex max-w-6xl flex-col gap-2 px-4 text-xs md:px-6">
-            <p data-disclaimer>{educationalDisclaimer}</p>
-            <p>{changeNotice}</p>
-            <p>{textNotice}</p>
-          </div>
-        </footer>
+        {/* Base UI portals mount on <body>, outside this stacking context, so popups sit above the app. */}
+        <div className="isolate flex flex-1 flex-col">
+          <header className="border-b border-border py-2 short:py-1">
+            {/* Header, page and footer share one box: max-w-6xl with the page's own padding, so their content edges line up. */}
+            <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 md:px-6">
+              <Link href="/" className="font-display text-xl font-semibold text-ink underline-offset-4 hover:text-accent hover:underline">
+                Anatomy, exploded
+              </Link>
+              <ThemeToggle />
+            </div>
+          </header>
+          <div className="flex-1">{children}</div>
+          <footer className="border-t border-border py-6 text-sm text-ink-tertiary">
+            <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 md:flex-row md:items-center md:justify-between md:px-6">
+              <p className="shrink-0">
+                Built by{" "}
+                <a href="https://badcodes.dev" className="text-ink-secondary underline-offset-4 hover:text-accent hover:underline">
+                  badcodes.dev
+                </a>
+              </p>
+              {credits.length > 0 && (
+                <ul aria-label="Credits" className="flex flex-wrap gap-x-4 gap-y-2">
+                  {credits.map((c) => (
+                    <li key={c.label}>
+                      {c.href ? (
+                        <a href={c.href} className="underline-offset-4 hover:text-accent hover:underline" rel="noreferrer">
+                          {c.label}
+                        </a>
+                      ) : (
+                        c.label
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+            <div className="mx-auto mt-4 flex max-w-6xl flex-col gap-2 px-4 text-xs md:px-6">
+              <p data-disclaimer>{educationalDisclaimer}</p>
+              <p>{changeNotice}</p>
+              <p>{textNotice}</p>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );
