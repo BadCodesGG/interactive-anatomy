@@ -56,7 +56,7 @@ export default function RootLayout({
         {/* Sets data-theme before first paint, so a dark visitor never sees the light plate flash. */}
         <script dangerouslySetInnerHTML={{ __html: themeScript() }} />
       </head>
-      <body className="flex min-h-full flex-col">
+      <body className="isolate flex min-h-full flex-col">
         <header className="border-b border-border py-2 short:py-1">
           {/* Header, page and footer share one box: max-w-6xl with the page's own padding, so their content edges line up. */}
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 md:px-6">
