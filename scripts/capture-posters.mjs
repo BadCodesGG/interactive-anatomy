@@ -59,7 +59,14 @@ async function main() {
   const port = explicit ? null : await freePort();
   const baseUrl = explicit ?? `http://localhost:${port}`;
   const server = explicit ? null : startDevServer(port, "start");
-  const browser = await chromium.launch({ channel: "chrome", args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
+  // The installed Google Chrome on purpose, with no fallback: Playwright's bundled Chromium is the build open to
+  // CVE-2026-118306 et al. A failed launch (no Chrome here) stops the server it would otherwise leave running.
+  const browser = await chromium
+    .launch({ channel: "chrome", args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] })
+    .catch((error) => {
+      stopDevServer(server);
+      throw error;
+    });
   try {
     await waitForServer(baseUrl, 90_000);
     mkdirSync(OUT, { recursive: true });

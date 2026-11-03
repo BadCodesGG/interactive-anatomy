@@ -64,9 +64,9 @@ npm run dev            # http://localhost:3000
 | `npm run check:sidecar` | Checks every `src/data/*.sidecar.json` against its GLB and copy book. |
 | `npm run models` | Rebuilds the brain and body GLBs (see below). |
 | `npm run posters` | After a build, captures `public/posters/*.png` from the running production site. |
-| `npm run test:stage` | After a build, boots `next start` and drives each route in Chromium, checking payload size, console output, WebGL and the credit line. |
+| `npm run test:stage` | After a build, boots `next start` and drives each route in the installed Google Chrome, checking payload size, console output, WebGL and the credit line. |
 
-`test:stage` needs a production build first and Google Chrome (`npx playwright install chrome`): it launches the installed Chrome, not Playwright's bundled Chromium. Run it with `npm run test:stage`. Screenshots go to `.stage-shots/` (`STAGE_SHOTS_DIR` changes that), and `STAGE_URL` points it at a server that is already running.
+`test:stage` and `npm run posters` need a production build first and Google Chrome: they launch the installed Chrome, not Playwright's bundled Chromium, so an older `npx playwright install chromium` setup is not enough. Without Chrome, `npx playwright install chrome` installs it (it needs an administrator shell on Windows and sudo on Linux). Run it with `npm run test:stage`. Screenshots go to `.stage-shots/` (`STAGE_SHOTS_DIR` changes that), and `STAGE_URL` points it at a server that is already running.
 
 ## Rebuilding the models
 
