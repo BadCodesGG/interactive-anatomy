@@ -66,7 +66,7 @@ npm run dev            # http://localhost:3000
 | `npm run posters` | After a build, captures `public/posters/*.png` from the running production site. |
 | `npm run test:stage` | After a build, boots `next start` and drives each route in Chromium, checking payload size, console output, WebGL and the credit line. |
 
-`test:stage` needs a production build first and Playwright's Chromium (`npx playwright install chromium`). Run it with `npm run test:stage`. Screenshots go to `.stage-shots/` (`STAGE_SHOTS_DIR` changes that), and `STAGE_URL` points it at a server that is already running.
+`test:stage` needs a production build first and Google Chrome (`npx playwright install chrome`): it launches the installed Chrome, not Playwright's bundled Chromium. Run it with `npm run test:stage`. Screenshots go to `.stage-shots/` (`STAGE_SHOTS_DIR` changes that), and `STAGE_URL` points it at a server that is already running.
 
 ## Rebuilding the models
 

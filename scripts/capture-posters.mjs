@@ -59,7 +59,7 @@ async function main() {
   const port = explicit ? null : await freePort();
   const baseUrl = explicit ?? `http://localhost:${port}`;
   const server = explicit ? null : startDevServer(port, "start");
-  const browser = await chromium.launch({ args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
+  const browser = await chromium.launch({ channel: "chrome", args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
   try {
     await waitForServer(baseUrl, 90_000);
     mkdirSync(OUT, { recursive: true });
