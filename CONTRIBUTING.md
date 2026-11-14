@@ -7,6 +7,16 @@ npm run lint && npm run typecheck && npm test && npm run build
 npm run test:stage
 ```
 
+CI (`.github/workflows/ci.yml`) runs lint, typecheck, tests and the build on every push to `main`,
+not on pull requests; `test:stage` needs a browser and stays local.
+
+`package.json` `overrides` clear GHSA-g3hv-75wg-m249 (minimatch >=7.0.0 <11.0.1) in dev tools:
+`minimatch` ^11.0.8 under `@typescript-eslint/typescript-estree` (lint) and `glob` ^14.0.6 under
+`@donmccurdy/caporal` (the `gltf-transform` CLI's argument parser, which pulls minimatch 11). Both
+parents declare an older major and only use the named `minimatch()` / promise `glob()` exports,
+which the new majors keep. Drop each once its parent declares a fixed range
+(`npm view <pkg> dependencies`), then rerun `npm audit`.
+
 ## Adding a feature
 
 A feature is three files plus a route.

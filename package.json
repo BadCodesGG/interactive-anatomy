@@ -36,7 +36,7 @@
     "lucide-react": "^1.16.0",
     "meshoptimizer": "~1.2.0",
     "n8ao": "^2.0.1",
-    "next": "^16.2.6",
+    "next": "^16.4.6",
     "postprocessing": "6.39.5",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -55,7 +55,7 @@
     "@types/three": "^0.186.0",
     "draco3dgltf": "^1.5.7",
     "eslint": "^9",
-    "eslint-config-next": "^16.2.6",
+    "eslint-config-next": "^16.4.6",
     "playwright": "^1.62.1",
     "tailwindcss": "^4.3.0",
     "typescript": "^5",
@@ -64,6 +64,12 @@
   "overrides": {
     "@google/model-viewer": {
       "three": "$three"
+    },
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.8"
+    },
+    "@donmccurdy/caporal": {
+      "glob": "^14.0.6"
     }
   }
 }
